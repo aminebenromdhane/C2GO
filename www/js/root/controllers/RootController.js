@@ -9,5 +9,4 @@ angular.module('c2go').controller('RootController', ['$state',
       $state.go('intro');
     }
 
-
  }]);
