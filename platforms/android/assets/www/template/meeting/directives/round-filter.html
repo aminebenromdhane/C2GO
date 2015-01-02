@@ -1,0 +1,7 @@
+<span>
+    <md-button class="md-fab" ng-repeat="item in defaultFilterItems" md-theme="addicaid"
+           ng-class="{'selected': item.selected}"
+           ng-click="itemToggle(item)"
+           style="margin: 5px;padding: 15px;font-size: 18px;width: 35px;height: 35px;">
+    <div style="margin-top: -6px;margin-left: -5px;">{{ item.display }}</div></md-button>
+</span>

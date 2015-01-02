@@ -1,0 +1,8 @@
+<md-input-group tabindex="-1" ng-class="{ 'super-input-error': status == -1 }">
+    <label for="{{ mdFid }}" >{{label}}</label>
+    <md-input id="{{ mdFid }}" ng-model="value" type="{{ type }}" ng-class="{ 'super-input-error': status == -1 }"></md-input>
+    <div style="color: red;font-size: 11px;" layout="row" layout-align="space-between center" ng-show="status == -1">
+        <div>{{ errorMessage }}</div>
+        <div><span class="ion-alert-circled"></span></div>
+    </div>
+</md-input-group>

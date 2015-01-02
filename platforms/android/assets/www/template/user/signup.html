@@ -1,0 +1,169 @@
+<ion-view>
+    <ion-header-bar align-title="left" class="bar-addicaid" ng-controller="HeaderController as header">
+        <div class="buttons">
+            <button menu-toggle="left" class="button button-icon"><i class="md-menu white md-lg"></i></button>
+        </div>
+        <h1 class="title">Sign Up</h1>
+        <!--<div class="buttons">
+            <button class="button button-icon" ng-click="header.goTo('meetings.list')"><i class="md md-more-vert white md-lg"></i></button>
+            <button class="button button-icon" ng-click="header.goTo('meetings.filterLocation')"><i class="md md-search white md-lg"></i></button>
+        </div>
+        -->
+    </ion-header-bar>
+    <ion-content class="has-header">
+
+       <!-- <ion-slide-box on-slide-changed="intro.slideChanged($index)">
+                <ion-slide class="signup-slide">-->
+                    <form class="signup">
+                        <div layout="column" layout-align="center center" flex="100">
+                            <div layout="row" style="margin-left: 30px;">
+                                <img ng-src="{{ signupCtrl.getPicture() }}" class="upload" style="width: 140px;height: 140px;border-radius: 70px;">
+                                <md-button class="md-fab md-primary" style="position:relative;left: -50px;top: 95px;" ng-click="signupCtrl.uploadChoice($event)">
+                                    <i class=" md-photo-camera white md-lg"></i>
+                                </md-button>
+                            </div>
+                            <h4 class="secondary">Upload your own or choose an avatar</h4>
+
+                                <image-slide-box class="avatar-select list" drag-content="false">
+                                    <image-slide>
+                                        <img ng-src="img/avatars/batman.jpg" class="avatar" >
+                                    </image-slide>
+                                    <image-slide>
+                                        <img ng-src="img/avatars/sloth.jpg" class="avatar" >
+                                    </image-slide>
+                                    <image-slide>
+                                        <img ng-src="img/avatars/monocle.jpg" class="avatar" >
+                                    </image-slide>
+                                    <image-slide>
+                                        <img ng-src="img/avatars/cat.jpg" class="avatar" >
+                                    </image-slide>
+                                    <image-slide>
+                                        <img ng-src="img/avatars/batman.jpg" class="avatar" >
+                                    </image-slide>
+                                    <image-slide>
+                                        <img ng-src="img/avatars/sloth.jpg" class="avatar" >
+                                    </image-slide>
+                                    <image-slide>
+                                        <img ng-src="img/avatars/monocle.jpg" class="avatar" >
+                                    </image-slide>
+                                    <image-slide>
+                                        <img ng-src="img/avatars/cat.jpg" class="avatar" >
+                                    </image-slide>
+                                    <image-slide>
+                                        <img ng-src="img/avatars/cat.jpg" class="avatar" >
+                                    </image-slide>
+                                </image-slide-box>
+
+                            <div><md-text-float label="Username" class="long m-center" ng-model="signupCtrl.user.username"> </md-text-float></div>
+                            <div><md-text-float label="Email" class="long m-center" type="email" ng-model="signupCtrl.user.email"> </md-text-float></div>
+                            <div><md-text-float label="Password" class="long m-center" type="password" ng-model="signupCtrl.user.password"> </md-text-float></div>
+                        </div>
+                    </form>
+
+        <!--
+                <ion-slide class="signup-slide">
+                    <div flex="70" class="title-aligned">
+                        <h3 class="left-align">Recovery Time</h3>
+                        <div layout="row">
+                            <md-text-float label="Number of Days" class="long m-left day-count" type="email" ng-model="signupCtrl.user.recoverytime"> </md-text-float>
+
+                        </div>
+                    </div>
+
+                <div class="divider"></div>
+
+                    <div class="record title-aligned" flex="70">
+                    <h3 class="left-align">Recovery Reasons</h3>
+
+                    <h4 class="left-align secondary">Record a brief message on why you need to get better and stay better.</h4>
+                    <md-button class="md-fab md-primary record" ng-click="signupCtrl.reasonRecord()">
+                                    <i class="md-mic white md-2x"></i>
+                                </md-button>
+                    </div>
+                    <form class="title-aligned" flex="70">
+                  
+                    <md-text-float label="Or write your reason for recovery" class="long m-center full-width" type="text" ng-model="signupCtrl.user.reasontext"> </md-text-float>
+                 
+                    </form>
+                </ion-slide>
+
+                <ion-slide class="signup-slide padding">
+                    <div class="title-aligned" flex="75">
+                        <h3 class="left-align">What are you recovering from?</h3>
+                    </div>
+
+
+                      <div class="vice-boxes title-aligned" flex="75">
+
+                            <md-checkbox layout="row" layout-margin layout-fill layout-padding aria-label="Alcohol" ng-model="vice" class="vice-check" value="1" flex="100">Alcohol</md-checkbox>
+                            <md-checkbox layout="row" layout-margin layout-fill layout-padding aria-label="Nicotine" ng-model="vice" class="vice-check" value="2" flex="100">Nicotine</md-checkbox>
+                 
+                            <md-checkbox layout="row" layout-margin layout-fill layout-padding aria-label="Alcohol" ng-model="vice" class="vice-check" flex="100" value="3">Heroin</md-checkbox>
+                            <md-checkbox layout="row" layout-margin layout-fill layout-padding aria-label="Nicotine" ng-model="vice" class="vice-check" flex="100">Cocaine</md-checkbox>
+                 
+
+                 
+                            <md-checkbox layout="row" layout-margin layout-fill layout-padding aria-label="Nicotine" ng-model="vice" class="vice-check" flex="100">Crystal Meth</md-checkbox>
+                            <md-checkbox layout="row" layout-margin layout-fill layout-padding aria-label="Alcohol" ng-model="vice" class="vice-check" flex="100">Pills</md-checkbox>
+                  
+                            <md-checkbox layout="row" layout-margin layout-fill layout-padding aria-label="Alcohol" ng-model="vice" class="vice-check" flex="100">Sex</md-checkbox>
+                            <md-checkbox layout="row" layout-margin layout-fill layout-padding aria-label="Nicotine" ng-model="vice" class="vice-check" flex="100">Eating Disorder</md-checkbox>
+              
+                            <md-checkbox layout="row" layout-margin layout-fill layout-padding aria-label="Nicotine" ng-model="vice" class="vice-check" flex="100">Gambling</md-checkbox>
+                            <md-checkbox layout="row" layout-margin layout-fill layout-padding aria-label="Nicotine" ng-model="vice" class="vice-check" flex="100">Friend and/or Family Member</md-checkbox>
+
+                        </div>
+                </div>
+                </ion-slide>
+
+
+                <ion-slide class="signup-slide padding">
+                    <div class="title-aligned" flex="75">
+                    
+
+
+                    <div class="user-location">
+                        <h3 class="left-align">Location</h3>
+                        <ion-item ng-click="locationCtrl.pickCurrentLocation()" class="current-l" layout="row">
+
+                              <md-button class="md-fab md-primary white current" ng-click="signupCtrl.reasonRecord()">
+                                    <i class="md md-gps-fixed md red"></i>
+                                </md-button>
+                                <h5>Current Location</h5>
+                        </ion-item>
+
+                        <div layout="row" class="custom">
+                            <md-text-float label="City, State, or Zip" class="full-width m-center" ng-model="signupCtrl.user.location"> </md-text-float>
+                        </div>
+                    </div>
+
+                    <div class="user-age left-align">
+                    <h3 class="left-align">Age</h3>
+                        <md-text-float label="A # or a feeling" class="short m-left " ng-model="signupCtrl.user.userage"> </md-text-float>
+                    </div>
+
+                    
+                    <div class="user-gender left-align">
+                    <h3 class="left-align">Gender</h3>
+
+                    <div class="gender-selection left-align">
+                        <md-radio-group ng-model="group" class="gender">
+                              <md-radio-button value="Male" aria-label="Label 1" class="vice-check">Male</md-radio-button>
+                              <md-radio-button value="Female" class="vice-check"> Female </md-radio-button>
+                              <md-radio-button value="Trans" aria-label="Label 3" class="vice-check">Trans</md-radio-button>
+                              <md-radio-button value="Other" aria-label="Label 3" class="vice-check">Other</md-radio-button>
+                            </md-radio-group>
+                    </div>
+                    </div>
+                </div>
+                </ion-slide>
+            </ion-slide-box>
+
+           -->
+        <div ng-show="signupCtrl.loading" style="text-align: center;padding-top: 20px;"><i style="font-size: 30px" class="ion-loading-c"></i></div>
+
+    </ion-content>
+    <ion-footer-bar class="bar-addicaid bright-blue">
+        <div class="footer-button" ng-click="signupCtrl.signup()">Next</div>
+    </ion-footer-bar>
+</ion-view>

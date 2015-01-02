@@ -1,0 +1,222 @@
+.welcome-area {
+	background:url(../img/spaceman-welcome.svg);
+	background-repeat: no-repeat;
+	background-position: center right;
+	height: 200px;
+	margin: 10px;
+}
+
+.welcome-area h2 {
+	color: $grey;
+	padding: 100px 0 0 45px;
+}
+
+.forgot {
+	color: $med-blue;
+	font-weight: 500;
+	margin-top: 10px;
+  	text-align: center;
+}
+
+.login.forgot {
+	text-align: center;
+}
+
+.signup {
+	margin-top: 0px;
+}
+
+.m-center {
+	margin: 0 auto;
+	margin-bottom: 0px !important;
+}
+
+.m-left {
+	margin: 0;
+}
+
+.title-aligned {
+	margin: 0 auto;
+}
+
+
+md-input-group.md-default-theme.md-input-focused label {
+	color: $med-blue !important;
+}
+
+/* sign up general */
+
+.slider-pager .slider-pager-page {
+	color: $med-blue;
+}
+
+.slider-slide {
+	color: $sec-grey;
+}
+
+.signup-slide {
+	margin-top: 30px;
+	padding: 0px;
+	padding-top: 10px !important;
+}
+
+.signup-slide.padding {
+	padding: 10px;
+	padding-top: 10px !important;
+
+}
+
+.signup-slide h2, .signup-slide h3, .signup-slide h4  {
+	color: $prim-grey;
+	font-weight: 400;
+}
+
+.long-width {
+	width: 80%;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.scroll-height .scroll {
+	height: 100%;
+}
+
+md-input-group.md-default-theme label {
+	text-align: left;
+	color: $sec-grey !important;
+}
+
+md-checkbox.md-default-theme.md-checked .md-icon {
+	background-color: $med-blue !important;
+}
+
+/* sign up avatars */
+
+
+.avatar-select {
+	width: auto;
+	background: $light-white;
+	padding: 10px;
+	position: relative;
+}
+
+
+h4.secondary {
+	font-weight: 400;
+	color: $sec-grey;
+}
+
+.avatar-select .avatar {
+    vertical-align: middle;
+	border-radius: 100%;
+	height: 50px;
+	width: 50px;
+	margin: 5px;
+	border: 4px solid transparent;
+}
+
+.avatar-select .avatar.active {
+ border: 4px solid $med-blue;
+ box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.26);
+}
+.avatar-select .avatar.selected{
+  height: 100px;
+  width: 100px;
+}
+.left-align {
+	text-align: left;
+}
+
+/* avatar scrolling */
+
+
+/* second screen*/
+
+.day-count, .short {
+	width: 110px;
+	max-width: 110px;
+}
+
+md-button.record {
+
+}
+
+
+.divider {
+	background: white;
+	height: 30px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 100%;
+}
+.record {
+	
+}
+
+.vice-boxes {
+	margin: 0 auto;
+}
+.vice-check {
+	text-align: left !important;
+	display: block;
+	margin: 30px 0 !important;
+}
+
+.vice-check .md-label {
+	top: 5px !important;
+}
+
+
+
+/*fourth slide */
+
+.white.current {
+	background: white !important;
+	background-color: white !important;
+	height: 30px;
+	width: 30px;
+	margin: 5px;
+	overflow: visible !important;
+}
+
+.md-button.md-default-theme.md-raised.md-primary.white.current:not([disabled]):hover > .red , .md-button.md-default-theme.md-raised.md-primary.white.current:not([disabled]):focus > .red, .md-button.md-default-theme.md-fab.md-primary.white.current:not([disabled]):hover > .red, .md-button.md-default-theme.md-fab.md-primary.white.current:not([disabled]):focus > .red {
+color: white !important;
+
+}
+
+
+.current-l.item {
+	border: none !important;
+	border-color: white;
+	padding: 0;
+	overflow: visible !important;
+}
+
+.current-l h5 {
+	position: relative;
+	top: 10px;
+}
+/* gender selection */
+
+.md-label::before {
+display: none;
+}
+
+.radioButtondemoBasicUsage body {
+  padding: 20px; }
+.radioButtondemoBasicUsage hr {
+  margin-left: -20px;
+  opacity: 0.3; }
+.radioButtondemoBasicUsage md-radio-group {
+  width: 150px; }
+.radioButtondemoBasicUsage p:last-child {
+  padding-bottom: 50px; }
+.radioButtondemoBasicUsage [ng-controller] {
+  padding-left: 20px; }
+.radioButtondemoBasicUsage .radioValue {
+  margin-left: 5px;
+  color: $med-blue !important;
+  font-weight: bold;
+  padding: 5px; }

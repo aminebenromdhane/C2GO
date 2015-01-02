@@ -1,0 +1,119 @@
+.marker-cluster-small {
+  background-color: rgba(5, 219, 194, .6);
+  color: white;
+}
+.marker-cluster-small div {
+  background-color: rgba(5, 219, 194, 1);
+
+}
+
+.marker-cluster-medium {
+  background-color: rgba(240, 194, 12, 0.6);
+  color: white;
+}
+.marker-cluster-medium div {
+  background-color: rgba(240, 194, 12, 1);
+}
+
+.marker-cluster-large {
+  background-color: rgba(240, 53, 53, 0.6);
+  color: white;
+}
+.marker-cluster-large div {
+  background-color: rgba(240, 53, 53, 1);
+}
+
+/* IE 6-8 fallback colors */
+.leaflet-oldie .marker-cluster-small {
+  background-color: rgb(181, 226, 140);
+}
+.leaflet-oldie .marker-cluster-small div {
+  background-color: rgb(110, 204, 57);
+}
+
+.leaflet-oldie .marker-cluster-medium {
+  background-color: rgb(241, 211, 87);
+}
+.leaflet-oldie .marker-cluster-medium div {
+  background-color: rgb(240, 194, 12);
+}
+
+.leaflet-oldie .marker-cluster-large {
+  background-color: rgb(253, 156, 115);
+}
+.leaflet-oldie .marker-cluster-large div {
+  background-color: rgb(241, 128, 23);
+}
+
+.marker-cluster {
+  background-clip: padding-box;
+  border-radius: 20px;
+}
+.marker-cluster div {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  margin-top: 5px;
+  color: white;
+  text-align: center;
+  border-radius: 15px;
+  font: 12px "Helvetica Neue", Arial, Helvetica, sans-serif;
+}
+.marker-cluster span {
+  line-height: 30px;
+}
+
+div.leaflet-marker-icon.triangle-border.leaflet-zoom-animated.leaflet-clickable {
+  width: auto !important;
+}
+
+
+
+
+.triangle-border.active {
+  background: $med-blue;
+  box-shadow: 0px 1px 2px rgba(0,0,0,.26);
+  border: 1px solid #3d9cea;
+}
+
+.triangle-border.active:before {
+  border-color: $med-blue transparent;
+}
+
+.triangle-border.active:after {
+  border-color: $med-blue transparent;
+}
+
+.triangle-border {
+  position: relative;
+  padding: 10px;
+  margin:-20px;
+  padding-top: 0;
+  border: 1px solid #F98506;
+  background-color: $orange;
+  color: white;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-align: center;
+  width: auto !important;
+  display: inline-block;
+  font-family: "Roboto";
+  box-shadow: 0px 1px 2px rgba(0,0,0,.26);
+}
+
+.triangle-border:before {
+  content: "";
+  position: relative;
+  bottom: -47px;
+  border-width: 10px 10px 0;
+  border-style: solid;
+  border-color: $orange transparent;
+  width: 0;
+}
+
+.triangle-border p {
+  line-height: 0.2em;
+  font-weight: 600;
+  font-size: 14px;
+}

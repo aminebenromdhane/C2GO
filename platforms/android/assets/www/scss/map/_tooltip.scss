@@ -1,0 +1,112 @@
+
+
+
+.map-details {
+padding: 3px 0px 0px 10px;
+background-color: white;
+z-index: 100;
+position: absolute; top: 0px; 
+bottom: 0px; 
+left: 0px; 
+right: 0px;
+min-height: 100px;
+box-shadow: 0px 1px 9px rgba(0,0,0, 0.4);
+border-bottom: 5px solid $med-blue;
+
+}
+
+.map-details .inner h4 {
+  color: $dark-grey;
+  font-size: 14px; 
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+h4.me {
+  margin-top: 12px;
+}
+
+.map-details .address {
+  font-size: 12px;
+  color: $grey;
+  margin-bottom: 0px;
+margin-top: 10px;
+font-weight: 400;
+}
+
+i.tooltip {
+  vertical-align: 0%; 
+margin-left: -3px;
+}
+
+span.tool {
+  display: block;
+}
+
+.meeting-title{
+  display: block;
+  font-family: $sans-serif-font;
+  text-transform: capitalize;
+  font-weight: 500;
+  max-width: 262px;
+  color: $dark-grey;
+  font-size: 12px;
+}
+
+.blue {
+  color: $med-blue;
+}
+
+.fellowship {
+  font-size: 1em !important;
+  font-weight: 400;
+}
+
+.meeting-location{
+  color: rgb(150, 150, 150);
+  font-weight: 400;
+ color: $dark-grey;
+  max-width: 262px;
+  font-family: $sans-serif-font !important;
+}
+
+.meeting-title-extend{
+  font-size: 110%;
+  margin: 0px 0px 1px 0px;
+  color: rgb(100,100,100);
+}
+
+.fellowship{
+  font-size: 1.2em !important;
+  color: $dark-grey;
+  font-weight: 400;
+  font-family: $sans-serif-font !important;
+}
+
+.right-details {
+  margin-top: 10px;
+}
+
+.right-details .tool {
+  font-size: 12px;
+  color: $grey;
+  margin-bottom: 5px;
+}
+
+.tool i {
+  margin-right: 5px;
+  vertical-align: 0%;
+}
+
+.apm{
+  font-size: .8em !important;
+  color: rgb(120,120,120);
+}
+
+.notes{
+  font-size: 12px;
+  opacity: 0.7;
+  margin-left: 5px;
+  padding: 0 0 5px 0;
+  color: rgb(128, 128, 128)!important;
+}

@@ -1,0 +1,13 @@
+<md-bottom-sheet class="md-list">
+    <h4>Add Tag</h4>
+    <md-list>
+        <md-item ng-repeat="tag in tags">
+            <md-checkbox aria-label="{{ tag.title }}" md-theme="addicaid">
+                {{ tag.title }}
+            </md-checkbox>
+        </md-item>
+    </md-list>
+    <md-button style="float: right;margin-right: 20px;" ng-click="done()">
+        DONE
+    </md-button>
+</md-bottom-sheet>

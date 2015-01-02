@@ -1,0 +1,62 @@
+
+&.bar-addicaid {
+  @include bar-style($bar-light-bg, $bar-light-border, $bar-addicaid-text);
+  &.bar-footer{
+    @include bar-style($bar-positive-bg, $bar-positive-border, $bar-positive-text);
+    background-image: linear-gradient(180deg, $bar-positive-border, $bar-positive-border 50%, transparent 50%);
+  }
+}
+.bar-addicaid {
+  .button {
+    @include button-style($bar-light-bg, $bar-light-border, $bar-light-active-bg, $bar-light-active-border, $bar-addicaid-text);
+    @include button-clear($bar-addicaid-text, $bar-title-font-size);
+  }
+}
+.footer-button{
+  width:100%;
+  text-align:center;
+  padding-top: 7px;
+}
+
+.bar-addicaid {
+  background: $orange;
+  color: white;
+  box-shadow: 0px 1px 8px rgba(114,68,34,0.7);
+}
+
+.bar-addicaid > * {
+  color: white;
+}
+
+.bar-addicaid .title {
+  font-family: "Roboto";
+  font-weight: 600;
+  color: white;
+}
+
+.white {
+  color: white;
+}
+
+.white.md-lg {
+  vertical-align: -10%;
+}
+
+.bar .button {
+  padding: 0px 1px;
+}
+
+.bar-addicaid.bar-footer {
+  background: $med-blue;
+  background-color: $med-blue;
+  background-image: none;
+}
+
+.bright-blue {
+  background: $bright-blue;
+  background-color: $bright-blue;
+}
+
+.footer-button {
+  font-size: 18px;
+}

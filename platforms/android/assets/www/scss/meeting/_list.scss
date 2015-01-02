@@ -1,0 +1,88 @@
+div.bar.bar-subheader {
+	background-color: $off-white;
+	
+}
+
+div.bar.bar-subheader > .title {
+color: #444444;
+font-weight: normal;
+}
+
+.bar h1.title {
+	text-align: left;
+	left: 0px;
+}
+
+h1.title.title-left {
+	left: 40px !important;
+}
+
+.has-subheader-rel {
+	top: 69px;
+
+}
+
+
+.bar-subheader.rel {
+	top: 0px !important;
+	position: relative;
+}
+
+.list-entry {
+	padding: 5px;
+}
+
+.list-entry > a.item-content {
+	padding: 5px;
+}
+
+
+.inner h4 {
+  color: $dark-grey;
+  font-size: 16px; 
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+.fellowship {
+  font-size: 14px !important;
+  font-weight: 400;
+}
+
+.inner .address {
+	margin: 10px 0;
+}
+.address {
+font-size: 14px;
+}
+
+.address  i {
+	margin-right: 5px;
+}
+
+.directions {
+	background-color: white !important;
+}
+
+.directions.white {
+	background: white !important;
+}
+
+
+
+.day-time span.tool {
+	display: inline-block;
+	margin-top: 5px;
+	font-size: 14px;
+}
+
+.tool.inline {
+	display: inline-block;
+	margin-top: 5px;
+	font-size: 14px;
+}
+
+
+.day-time span.day {
+	margin-right: 10px;
+}

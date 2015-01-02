@@ -1,0 +1,44 @@
+<ion-view>
+    <ion-header-bar align-title="left" class="bar-addicaid" ng-controller="HeaderController as header">
+        <div class="buttons">
+            <button menu-toggle="left" class="button button-icon"><i class="md-menu white md-lg"></i></button>
+        </div>
+        <h1 class="title">Addicaid Daily</h1>
+        <div class="buttons">
+            <button class="button button-icon" ng-click="header.goTo('meeting.list')"><i class="md md-more-vert white md-lg"></i></button>
+            <button class="button button-icon" ng-click="header.goTo('meeting.filterLocation')"><i class="md md-search white md-lg"></i></button>
+        </div>
+    </ion-header-bar>
+
+
+
+        <!--<div class="joyride daily firstimer-app">
+            <h2>Here's your daily tip that you can reflect upon keep you on your toes.</h2>
+            <p>We'll remind you every evening (if you want.)</p>
+            <a href="#" class="standard-link bottom-link">got it!</a>
+        </div> joyride-bk-->
+
+    <ion-content class="has-header" data-tap-disabled="true" >
+        <div class="list card" ng-hide="dailyNewsCtrl.loading.current">
+            <custom-slide-box show-pager="false" on-slide-changed="dailyNewsCtrl.slideHasChanged($index)">
+                <custom-slide ng-repeat="dailyNews in dailyNewsCtrl.news" style="padding: 0px;">
+
+                    <div class="item flush item-body">
+                        <div class="bk-image" style="background:url('{{ dailyNews.image }}')">
+                            <h2 class="detail-padding" ng-bind-html="dailyNews.title"></h2>
+                        </div>
+                        <p class="detail-padding summary" ng-bind-html="dailyNews.smallContent">
+                        </p>
+
+                    </div>
+
+                </custom-slide>
+            </custom-slide-box>
+        </div>
+        <div ng-hide="dailyNewsCtrl.loading.current">
+            <a class="standard-link d-prev detail-padding" ng-show="dailyNewsCtrl.hasPrev()" ng-click="dailyNewsCtrl.prev()" ng-class="{disabled: dailyNewsCtrl.loading.prev && dailyNewsCtrl.currentPosition === 0}">Previous Daily</a>
+            <a class="standard-link d-next detail-padding" ng-show="dailyNewsCtrl.hasNext()" ng-click="dailyNewsCtrl.next()">Next Daily</a>
+        </div>
+        <div ng-show="dailyNewsCtrl.loading.current" style="text-align: center;padding-top: 20px;"><i style="font-size: 30px" class="ion-loading-c"></i></div>
+    </ion-content>
+</ion-view>

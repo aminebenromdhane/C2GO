@@ -1,0 +1,220 @@
+.nav-tabs>li.active{
+  border-bottom: 4px solid $med-blue !important;
+}
+.nav-tabs>li.active>a{
+  color: $med-blue !important;
+}
+.nav-tabs>li{
+  border-bottom: 3px solid $gray;
+}
+.nav-tabs>li>a{
+  color: $gray !important;
+}
+
+
+/* filter location */ 
+
+i.grey {
+	color: $grey;
+}
+.bar.item-input-inset .item-input-wrapper input, .item-input-wrapper {
+	background: white;
+}
+
+.google {
+
+}
+
+i.red {
+	color: $red;
+	vertical-align: 0%;
+}
+
+
+/* filter categories */
+
+h2.category {
+	color: $dark-grey;
+	font-weight: 500;
+	margin: 20px 10px;
+	font-size: 16px;
+}
+
+.md-header-items-container {
+	border-bottom-color: $off-white !important;
+	width: 100%;
+	position: static;
+}
+
+md-tabs.md-addicaid-theme md-tab:focus {
+	border-color: $blue;
+	border-width: 3px;
+}
+
+
+
+div.md-header-items {
+	width: 100%;
+}
+
+.sub-sub {
+	margin: 0 20px;
+}
+.sub-section {
+
+	margin: 0 20px;
+}
+
+.md-button.md-addicaid-theme.md-raised.selected, .md-button.md-addicaid-theme.md-fab.selected{
+  background-color: $blue !important;
+  color: $light-white !important;
+}
+
+.sub-button button {
+	color: $dark-grey;
+	background-color: $light-white;
+	font-family: Roboto !important;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: capitalize;
+	margin-bottom: 10px !important;
+}
+
+.category .md-button.md-addicaid-theme.md-raised {
+	font-size: 14px;
+}
+
+.md-button.md-addicaid-theme.md-raised.md-primary:not([disabled]):hover, .md-button.md-addicaid-theme.md-raised.md-primary:not([disabled]):focus, .md-button.md-addicaid-theme.md-fab.md-primary:not([disabled]):hover, .md-button.md-addicaid-theme.md-fab.md-primary:not([disabled]):focus {
+
+	background-color: $blue;
+}
+
+.md-button.md-addicaid-theme.md-raised {
+	background-color: $light-white;
+}
+
+.md-button.md-raised:not([disabled]) {
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.26); 
+}
+
+md-tab-label {
+	color: $blue;
+	font-weight: 400;
+}
+
+md-tabs.md-addicaid-theme md-tab:focus {
+	border-color: $blue;
+	border-width: 3px;
+}
+
+.c-section {
+	border-bottom: 3px solid $off-white;
+	padding-bottom: 20px;
+}
+
+.c-section > md-tabs > section.md-header {
+	border-bottom: 0px solid $off-white;
+}
+
+md-tabs.md-addicaid-theme md-tab.sub-category {
+	border-bottom-color: $off-white;
+	border-bottom-width: 2px;
+}
+
+hr {
+	color: $off-white;
+	opacity: .5;
+}
+.sub-category {
+	text-transform: capitalize;
+	font-family: Roboto !important;
+	font-size: 14px;
+	font-weight: 500;
+	border-bottom: 2px solid $off-white
+}
+
+.md-header-items {
+	border-bottom: 0px solid white;
+}
+.md-button.md-addicaid-theme.md-raised, .md-button.md-addicaid-theme.md-fab {
+	background-color: $light-white !important;
+	color: $dark-grey;
+	font-family: Roboto;
+	background: $light-white;
+}
+.md-button.md-addicaid-theme.md-fab {
+	background-color: $light-white;
+	color: $dark-grey;
+}
+
+.md-button.md-addicaid-theme.md-raised:not([disabled]):hover, .md-button.md-addicaid-theme.md-raised:not([disabled]):focus, .md-button.md-addicaid-theme.md-fab:not([disabled]):hover, .md-button.md-addicaid-theme.md-fab:not([disabled]):focus {
+	background-color: $light-white;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.26); 
+}
+
+.md-button.md-addicaid-theme.md-fab.md-primary {
+	background-color: $med-blue;
+}
+
+.md-button.md-addicaid-theme.md-raised.md-primary:not([disabled]):hover {
+	background: $med-blue !important;
+	color: white !important;
+}
+
+.md-tabs.md-addicaid-theme md-tab {
+	color: $grey;
+	font-weight: 400;
+}
+/*
+.md-button.md-addicaid-theme.md-fab.md-primary {
+	background-color: $med-blue !important;
+	color: white !important;
+}
+*/
+
+.ng-binding {
+	font-family: Roboto !important;
+}
+
+.button.md-raised.md-button.md-addicaid-theme.md-primary {
+	background-color: $light-white;
+	color: $dark-grey;
+	font-family: Roboto !important;
+	font-weight: 500;
+}
+
+.md-button.md-addicaid-theme.md-raised.md-primary:not([disabled]):hover > div {
+	color: white !important;
+}
+
+.button.md-raised.md-button.md-addicaid-theme {
+	background-color: $light-white;
+	color: $dark-grey;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+
+.example {
+	background-color: $light-white;
+	color: $dark-grey;
+	text-align: center;
+	padding: 5px;
+	height:20px;
+	width: 20px;
+	border-radius: 100%;
+	vertical-align: center;
+}
+
+md-tabs.md-addicaid-theme md-tab.sub-category md-tab-label {
+	color: $grey !important;
+}
+
+md-tabs.md-addicaid-theme md-tab.sub-category.active {
+	border-bottom-color: $blue !important;
+	border-bottom-width: 4px !important;
+}
+md-tabs.md-addicaid-theme md-tab.active md-tab-label {
+	color: $blue !important;
+}

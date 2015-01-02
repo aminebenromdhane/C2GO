@@ -1,0 +1,9 @@
+<span>
+    <md-button  ng-repeat="item in defaultFilterItems" md-theme="addicaid"
+           ng-class="{'selected': item.selected}"
+           ng-click="itemToggle(item)"
+           class="md-raised"
+           style="margin: 3px;padding: 8px 8px;"
+           ng-show="showItem(item)">
+    <div>{{ item.display }}</div></md-button>
+</span>
