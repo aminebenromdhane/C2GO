@@ -1,0 +1,20 @@
+
+.button-footer-c2go {
+    /* size */
+    width: 100%;
+    /* bg color green */
+    background-color: #2ac3f1 !important;
+    /* border same color bg */
+    border-color: #2ac3f1 !important;
+    /* text color green */
+    color: #ffffff !important;
+}
+
+.center {
+    text-align: center;
+}
+
+.input-underline {
+    margin-right: 4% !important;
+    border-bottom: 2px solid #ddd !important;
+}
