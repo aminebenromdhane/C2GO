@@ -1,54 +1,59 @@
 <ion-view>
-        <ion-content class="intro-slides">
-            <div class="list">
-                <table border="1px">
-                    <tr>
-                        <td rowspan="2">
-                            <div id="logo">
-                                <img src="/assets/unknownUser.jpg">
-                            </div>
-                        </td>
-                        <td>
-                            <label class="item-input">
-                                <input type="text" placeholder="First Name" class="input-underline">
-                            </label>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <label class="item-input">
-                                <input type="text" placeholder="Last Name" class="input-underline">
-                            </label>
-                        </td>
-                    </tr>
-                </table>
-                <label class="item-input">
-                    <input type="text" placeholder="Password" class="input-underline">
-                </label>
-                <label class="item-input">
-                    <input type="text" placeholder="E-mail address" class="input-underline">
-                </label>
-                <label class="item-input">
-                    <input type="text" placeholder="Mobile phone" class="input-underline">
-                </label>
-                <label class="item-input">
-                    <input type="text" placeholder="Last 4 digits of social security number" class="input-underline">
-                </label>
-                <label class="item-input">
-                    <input type="text" placeholder="confirm" class="input-underline">
-                </label>
-                <label class="item-input">
-                    <input type="text" placeholder="DOB (MM/DD/YYYY)" class="input-underline">
-                </label>
-                <label class="item-input">
-                    <input type="text" placeholder="Billing address">
-                </label>
+    <div class="bar bar-header">
+        <a class="button button-icon icon ion-navicon"></a>
+        <div class="h1 title">Create Account</div>
+        <a class="button button-icon icon  ion-navicon"></a>
+    </div>
+    <ion-content class="intro-slides">
+        <div class="list">
+            <table border="1px">
+                <tr>
+                    <td rowspan="2">
+                        <div id="logo">
+                            <img src="/assets/unknownUser.png">
+                        </div>
+                    </td>
+                    <td>
+                        <label class="item-input">
+                            <input type="text" placeholder="First Name" class="input-underline">
+                        </label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="item-input">
+                            <input type="text" placeholder="Last Name" class="input-underline">
+                        </label>
+                    </td>
+                </tr>
+            </table>
+            <label class="item-input">
+                <input type="text" placeholder="Password" class="input-underline">
+            </label>
+            <label class="item-input">
+                <input type="text" placeholder="E-mail address" class="input-underline">
+            </label>
+            <label class="item-input">
+                <input type="text" placeholder="Mobile phone" class="input-underline">
+            </label>
+            <label class="item-input">
+                <input type="text" placeholder="Last 4 digits of social security number" class="input-underline">
+            </label>
+            <label class="item-input">
+                <input type="text" placeholder="confirm" class="input-underline">
+            </label>
+            <label class="item-input">
+                <input type="text" placeholder="DOB (MM/DD/YYYY)" class="input-underline">
+            </label>
+            <label class="item-input">
+                <input type="text" placeholder="Billing address">
+            </label>
 
-                <label class="item-input">
-                    <ion-checkbox ng-model="isChecked">Mailing address is same as billing</ion-checkbox>
-                </label>
-            </div>
-        </ion-content>
+            <label class="item-input">
+                <ion-checkbox ng-model="isChecked">Mailing address is same as billing</ion-checkbox>
+            </label>
+        </div>
+    </ion-content>
 
     <ion-footer-bar>
         <div layout="row" layout-align="space-between center" layout-fill layout-margin>

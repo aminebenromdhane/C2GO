@@ -62,6 +62,12 @@ angular.module('c2go', ['ionic', 'ngResource', 'ngCordova', 'ngMaterial'])
           controller: 'CreateConfirmationController as createConfirmation'
         })
 
+        .state('home', {
+          url: '/home',
+          templateUrl: 'template/home/home.html',
+          controller: 'HomeController as home'
+        })
+
       ;
 
       $urlRouterProvider.otherwise('/');
