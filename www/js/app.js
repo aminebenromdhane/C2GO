@@ -68,6 +68,18 @@ angular.module('c2go', ['ionic', 'ngResource', 'ngCordova', 'ngMaterial'])
           controller: 'HomeController as home'
         })
 
+        .state('specialDetails', {
+          url: '/specialDetails',
+          templateUrl: 'template/specialDetails/specialDetails.html',
+          controller: 'SpecialDetailsController as specialDetails'
+        })
+
+        .state('promoFilter', {
+          url: '/promoFilter',
+          templateUrl: 'template/promoFilter/promoFilter.html',
+          controller: 'PromoFilterController as promoFilter'
+        })
+
       ;
 
       $urlRouterProvider.otherwise('/');
