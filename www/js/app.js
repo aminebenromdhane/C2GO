@@ -80,6 +80,12 @@ angular.module('c2go', ['ionic', 'ngResource', 'ngCordova', 'ngMaterial'])
           controller: 'PromoFilterController as promoFilter'
         })
 
+        .state('transactions', {
+          url: '/transactions',
+          templateUrl: 'template/transactions/transactions.html',
+          controller: 'TransactionsController as transactions'
+        })
+
       ;
 
       $urlRouterProvider.otherwise('/');
