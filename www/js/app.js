@@ -86,6 +86,24 @@ angular.module('c2go', ['ionic', 'ngResource', 'ngCordova', 'ngMaterial'])
           controller: 'TransactionsController as transactions'
         })
 
+        .state('selectTransactions', {
+          url: '/selectTransactions',
+          templateUrl: 'template/selectTransactions/selectTransactions.html',
+          controller: 'SelectTransactionsController as selectTransactions'
+        })
+
+        .state('selectRecipient', {
+          url: '/selectRecipient',
+          templateUrl: 'template/selectRecipient/selectRecipient.html',
+          controller: 'SelectRecipientController as selectRecipient'
+        })
+
+        .state('send', {
+          url: '/send',
+          templateUrl: 'template/send/send.html',
+          controller: 'SendController as send'
+        })
+
       ;
 
       $urlRouterProvider.otherwise('/');
