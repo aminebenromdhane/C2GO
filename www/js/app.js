@@ -104,6 +104,12 @@ angular.module('c2go', ['ionic', 'ngResource', 'ngCordova', 'ngMaterial'])
           controller: 'SendController as send'
         })
 
+        .state('sendConfirmation', {
+          url: '/sendConfirmation',
+          templateUrl: 'template/sendConfirmation/sendConfirmation.html',
+          controller: 'SendConfirmationController as sendConfirmation'
+        })
+
       ;
 
       $urlRouterProvider.otherwise('/');
