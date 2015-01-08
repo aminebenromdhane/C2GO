@@ -4,8 +4,6 @@ angular.module('c2go', ['ionic', 'ngResource', 'ngCordova', 'ngMaterial'])
         if(window.cordova && window.cordova.plugins.Keyboard) {
           cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
         }
-        $cordovaStatusbar.overlaysWebView(true);
-        $cordovaStatusbar.styleHex('#FFFFFF');
       });
     })
 
@@ -32,37 +30,49 @@ angular.module('c2go', ['ionic', 'ngResource', 'ngCordova', 'ngMaterial'])
           controller: 'LaunchController as launch'
         })
 
-        .state('login', {
-          url: '/login',
-          templateUrl: 'template/login/login.html',
-          controller: 'LoginController as login'
+        .state('user', {
+          url: "/user",
+          abstract: true,
+          templateUrl: 'template/user/root.html'
+        })
+        .state('user.login', {
+          url: "/login",
+          templateUrl: 'template/user/login.html',
+          controller: 'LoginController as loginCtrl'
+        })
+        .state('user.signup', {
+          url: "/signup",
+          templateUrl: 'template/user/signup.html'
+        })
+        .state('user.signup2', {
+          url: "/signup2",
+          templateUrl: 'template/user/signup2.html'
+        })
+        .state('user.logout', {
+          url: "/logout",
+          controller: 'LogoutController'
         })
 
-        .state('activationPromt', {
-          url: '/activationPromt',
-          templateUrl: 'template/activationPromt/activationPromt.html',
-          controller: 'ActivationPromtController as activationPromt'
-        })
 
-        .state('createAccount', {
-          url: '/createAccount',
-          templateUrl: 'template/createAccount/createAccount.html',
-          controller: 'CreateAccountController as createAccount'
-        })
 
-        .state('accountTerms', {
-          url: '/accountTerms',
-          templateUrl: 'template/accountTerms/accountTerms.html',
-          controller: 'AccountTermsController as accountTerms'
-        })
 
-        .state('createConfirmation', {
-          url: '/createConfirmation',
-          templateUrl: 'template/createConfirmation/createConfirmation.html',
-          controller: 'CreateConfirmationController as createConfirmation'
+        .state('payment', {
+          url: "/payment",
+          abstract: true,
+          templateUrl: 'template/payment/root.html'
         })
-
-      ;
+        .state('payment.selectRecipient', {
+          url: "/selectRecipient",
+          templateUrl: 'template/payment/selectRecipient.html'
+        })
+        .state('payment.send', {
+          url: "/send",
+          templateUrl: 'template/payment/send.html'
+        })
+        .state('payment.history', {
+          url: "/history",
+          templateUrl: 'template/payment/history.html'
+        });
 
       $urlRouterProvider.otherwise('/');
 

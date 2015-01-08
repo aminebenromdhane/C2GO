@@ -1,49 +1,41 @@
 <ion-view>
+    <ion-slide-box style="height:90%;">
+        <ion-slide>
+            <p>
+                The simplest way to collect the <br>
+                commissions you earn every day.
+            </p>
+        </ion-slide>
 
-        <ion-content class="launch-slides">
-            <ion-slide-box>
-                <!-- first slide -->
-                <ion-slide>
-                    <div id="logo">
-                        <img src="http://code.ionicframework.com/assets/img/app_icon.png">
-                    </div>
-                    <p>
-                        The simplest way to collect the <br>
-                        commissions you earn every day.
-                    </p>
-                </ion-slide>
+        <ion-slide>
+            <h3>Using Awesome</h3>
 
-                <!-- second slide -->
-                <ion-slide>
-                    <h3>Using Awesome</h3>
+            <div id="list">
+                <h5>Just three steps:</h5>
+                <ol>
+                    <li>Be awesome</li>
+                    <li>Stay awesome</li>
+                    <li>There is no step 3</li>
+                </ol>
+            </div>
+        </ion-slide>
 
-                    <div id="list">
-                        <h5>Just three steps:</h5>
-                        <ol>
-                            <li>Be awesome</li>
-                            <li>Stay awesome</li>
-                            <li>There is no step 3</li>
-                        </ol>
-                    </div>
-                </ion-slide>
+        <ion-slide>
+            <h3>Any questions?</h3>
+            <p>
+                Too bad!
+            </p>
+        </ion-slide>
+    </ion-slide-box>
 
-                <!-- third slide -->
-                <ion-slide>
-                    <h3>Any questions?</h3>
-                    <p>
-                        Too bad!
-                    </p>
-                </ion-slide>
-            </ion-slide-box>
-        </ion-content>
 
-    <ion-footer-bar>
+    <ion-footer-bar class="hidden-bar">
         <div layout="row" layout-align="space-between center" layout-fill layout-margin>
             <div flex class="buttons">
-                <a href="#/createAccount" class="button-footer-c2go button-full button">SIGN UP</a>
+                <md-button class="md-raised md-primary button" ui-sref="meeting.comment">SIGN UP</md-button>
             </div>
             <div flex class="buttons">
-                <a href="#/login" class="button-footer-c2go  button button-block">LOG IN</a>
+                <md-button class="md-raised md-primary button" ui-sref="user.login">LOG IN</md-button>
             </div>
         </div>
     </ion-footer-bar>

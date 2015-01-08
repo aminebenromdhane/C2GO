@@ -1,0 +1,29 @@
+div.bar.bar-subheader {
+  background-color: $off-white;
+
+}
+
+div.bar.bar-subheader > .title {
+  color: #444444;
+  font-weight: normal;
+}
+
+.bar h1.title {
+  text-align: left;
+  left: 0px;
+}
+
+h1.title.title-left {
+  left: 40px !important;
+}
+
+.has-subheader-rel {
+  top: 44px;
+
+}
+
+
+.bar-subheader.rel {
+  top: 0px !important;
+  position: relative;
+}

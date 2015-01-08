@@ -27875,3 +27875,202 @@ file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4
 2014-12-31 14:47:06.205 c2go[49157:5522094] Resetting plugins due to page load.
 2014-12-31 14:47:07.268 c2go[49157:5522094] Finished load of: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Bundle/Application/D2ECC78E-C267-408E-B927-6A8B8F2667E1/c2go.app/www/index.html#/intro
 2014-12-31 19:27:54.082 c2go[49157:5595145] Terminating since there is no system app.
+2015-01-06 06:58:05.844 c2go[78158:7946473] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Data/Application/98A96E49-279E-4069-8836-B02790189FAD/Library/Cookies/Cookies.binarycookies
+2015-01-06 06:58:05.935 c2go[78158:7946473] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-06 06:58:05.935 c2go[78158:7946473] Multi-tasking -> Device: YES, App: YES
+2015-01-06 06:58:05.937 c2go[78158:7946473] Unlimited access to network resources
+2015-01-06 06:58:06.122 c2go[78158:7946473] [CDVTimer][keyboard] 0.054002ms
+2015-01-06 06:58:06.184 c2go[78158:7946473] [CDVTimer][statusbar] 61.340034ms
+2015-01-06 06:58:06.184 c2go[78158:7946473] [CDVTimer][localnotification] 0.308037ms
+2015-01-06 06:58:06.184 c2go[78158:7946473] [CDVTimer][localnotification] 0.003994ms
+2015-01-06 06:58:06.185 c2go[78158:7946473] [CDVTimer][TotalPluginStartup] 62.169969ms
+2015-01-06 06:58:06.282 c2go[78158:7946473] Resetting plugins due to page load.
+2015-01-06 06:58:06.968 c2go[78158:7946473] Finished load of: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Bundle/Application/5DBF2376-8AC0-4BF3-AC99-EEC1448DB702/c2go.app/www/index.html#/launch
+2015-01-06 19:44:02.119 c2go[79680:8019076] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Data/Application/DCC041D2-4C09-471B-8B3A-994B02403DFA/Library/Cookies/Cookies.binarycookies
+2015-01-06 19:44:02.203 c2go[79680:8019076] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-06 19:44:02.203 c2go[79680:8019076] Multi-tasking -> Device: YES, App: YES
+2015-01-06 19:44:02.204 c2go[79680:8019076] Unlimited access to network resources
+2015-01-06 19:44:02.391 c2go[79680:8019076] [CDVTimer][keyboard] 0.054002ms
+2015-01-06 19:44:02.455 c2go[79680:8019076] [CDVTimer][statusbar] 63.645959ms
+2015-01-06 19:44:02.455 c2go[79680:8019076] [CDVTimer][localnotification] 0.047982ms
+2015-01-06 19:44:02.455 c2go[79680:8019076] [CDVTimer][localnotification] 0.003994ms
+2015-01-06 19:44:02.455 c2go[79680:8019076] [CDVTimer][TotalPluginStartup] 64.252973ms
+2015-01-06 19:44:02.566 c2go[79680:8019076] Resetting plugins due to page load.
+2015-01-06 19:44:03.583 c2go[79680:8019076] Finished load of: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Bundle/Application/046F6921-440A-4297-A66F-6EA9AD9B98A2/c2go.app/www/index.html#/launch
+2015-01-06 22:15:23.608 c2go[82951:8083350] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Data/Application/72BB9507-AACC-49E1-9925-02DF3D06547B/Library/Cookies/Cookies.binarycookies
+2015-01-06 22:15:23.691 c2go[82951:8083350] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-06 22:15:23.692 c2go[82951:8083350] Multi-tasking -> Device: YES, App: YES
+2015-01-06 22:15:23.693 c2go[82951:8083350] Unlimited access to network resources
+2015-01-06 22:15:23.875 c2go[82951:8083350] [CDVTimer][keyboard] 0.050008ms
+2015-01-06 22:15:23.940 c2go[82951:8083350] [CDVTimer][statusbar] 65.587997ms
+2015-01-06 22:15:23.941 c2go[82951:8083350] [CDVTimer][localnotification] 0.045002ms
+2015-01-06 22:15:23.941 c2go[82951:8083350] [CDVTimer][localnotification] 0.003994ms
+2015-01-06 22:15:23.941 c2go[82951:8083350] [CDVTimer][TotalPluginStartup] 66.165984ms
+2015-01-06 22:15:24.063 c2go[82951:8083350] Resetting plugins due to page load.
+2015-01-06 22:15:25.031 c2go[82951:8083350] Finished load of: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Bundle/Application/3AA1FA6E-683E-456D-943E-470D9FBBF0FD/c2go.app/www/index.html#/launch
+2015-01-06 23:13:35.622 c2go[83936:8103596] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Data/Application/6FB18FA0-740E-498C-8A3D-1666682E038B/Library/Cookies/Cookies.binarycookies
+2015-01-06 23:13:35.704 c2go[83936:8103596] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-06 23:13:35.705 c2go[83936:8103596] Multi-tasking -> Device: YES, App: YES
+2015-01-06 23:13:35.706 c2go[83936:8103596] Unlimited access to network resources
+2015-01-06 23:13:35.876 c2go[83936:8103596] [CDVTimer][keyboard] 0.048995ms
+2015-01-06 23:13:35.958 c2go[83936:8103596] [CDVTimer][statusbar] 81.833959ms
+2015-01-06 23:13:35.959 c2go[83936:8103596] [CDVTimer][localnotification] 0.037968ms
+2015-01-06 23:13:35.959 c2go[83936:8103596] [CDVTimer][localnotification] 0.003994ms
+2015-01-06 23:13:35.959 c2go[83936:8103596] [CDVTimer][TotalPluginStartup] 82.382023ms
+2015-01-06 23:13:36.066 c2go[83936:8103596] Resetting plugins due to page load.
+2015-01-06 23:13:37.038 c2go[83936:8103596] Finished load of: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Bundle/Application/36B63037-2AAD-441D-9EC8-8BCC675AA29E/c2go.app/www/index.html#/launch
+2015-01-06 23:40:40.113 c2go[84896:8120216] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Data/Application/EE85224C-23E6-4BAD-BA71-C2115C9D85F7/Library/Cookies/Cookies.binarycookies
+2015-01-06 23:40:40.209 c2go[84896:8120216] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-06 23:40:40.210 c2go[84896:8120216] Multi-tasking -> Device: YES, App: YES
+2015-01-06 23:40:40.211 c2go[84896:8120216] Unlimited access to network resources
+2015-01-06 23:40:40.386 c2go[84896:8120216] [CDVTimer][keyboard] 0.051022ms
+2015-01-06 23:40:40.436 c2go[84896:8120216] [CDVTimer][statusbar] 49.917996ms
+2015-01-06 23:40:40.436 c2go[84896:8120216] [CDVTimer][localnotification] 0.039041ms
+2015-01-06 23:40:40.436 c2go[84896:8120216] [CDVTimer][localnotification] 0.005007ms
+2015-01-06 23:40:40.436 c2go[84896:8120216] [CDVTimer][TotalPluginStartup] 50.447047ms
+2015-01-06 23:40:40.521 c2go[84896:8120216] Resetting plugins due to page load.
+2015-01-06 23:40:41.418 c2go[84896:8120216] Finished load of: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Bundle/Application/21BCB1DD-4EDB-4FF3-A8F2-6E713E2D5130/c2go.app/www/index.html#/launch
+2015-01-06 23:54:24.021 c2go[85777:8128590] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Data/Application/791B83A1-2C2B-44C8-B40B-DF1F439789D1/Library/Cookies/Cookies.binarycookies
+2015-01-06 23:54:24.099 c2go[85777:8128590] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-06 23:54:24.099 c2go[85777:8128590] Multi-tasking -> Device: YES, App: YES
+2015-01-06 23:54:24.101 c2go[85777:8128590] Unlimited access to network resources
+2015-01-06 23:54:24.267 c2go[85777:8128590] [CDVTimer][keyboard] 0.050008ms
+2015-01-06 23:54:24.323 c2go[85777:8128590] [CDVTimer][statusbar] 56.312978ms
+2015-01-06 23:54:24.324 c2go[85777:8128590] [CDVTimer][localnotification] 0.042021ms
+2015-01-06 23:54:24.324 c2go[85777:8128590] [CDVTimer][localnotification] 0.003994ms
+2015-01-06 23:54:24.324 c2go[85777:8128590] [CDVTimer][TotalPluginStartup] 56.872010ms
+2015-01-06 23:54:24.414 c2go[85777:8128590] Resetting plugins due to page load.
+2015-01-06 23:54:25.377 c2go[85777:8128590] Finished load of: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Bundle/Application/BCC23D0A-DBAC-45DA-9202-C8BA917A2B91/c2go.app/www/index.html#/launch
+2015-01-07 00:02:06.687 c2go[86643:8133982] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Data/Application/B2DCF3C8-E000-4382-B9E4-919949AF67BD/Library/Cookies/Cookies.binarycookies
+2015-01-07 00:02:06.765 c2go[86643:8133982] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-07 00:02:06.765 c2go[86643:8133982] Multi-tasking -> Device: YES, App: YES
+2015-01-07 00:02:06.766 c2go[86643:8133982] Unlimited access to network resources
+2015-01-07 00:02:06.959 c2go[86643:8133982] [CDVTimer][keyboard] 0.049055ms
+2015-01-07 00:02:07.017 c2go[86643:8133982] [CDVTimer][statusbar] 57.827055ms
+2015-01-07 00:02:07.017 c2go[86643:8133982] [CDVTimer][localnotification] 0.038028ms
+2015-01-07 00:02:07.017 c2go[86643:8133982] [CDVTimer][localnotification] 0.004053ms
+2015-01-07 00:02:07.017 c2go[86643:8133982] [CDVTimer][TotalPluginStartup] 58.353007ms
+2015-01-07 00:02:07.167 c2go[86643:8133982] Resetting plugins due to page load.
+2015-01-07 00:02:08.163 c2go[86643:8133982] Finished load of: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Bundle/Application/750206A1-D43B-413A-B0D1-2131ADD0A0BD/c2go.app/www/index.html#/launch
+2015-01-07 00:05:57.145 c2go[87498:8136961] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Data/Application/A3127D7E-CC0D-4A7F-A117-591E3DD079AA/Library/Cookies/Cookies.binarycookies
+2015-01-07 00:05:57.224 c2go[87498:8136961] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-07 00:05:57.224 c2go[87498:8136961] Multi-tasking -> Device: YES, App: YES
+2015-01-07 00:05:57.225 c2go[87498:8136961] Unlimited access to network resources
+2015-01-07 00:05:57.394 c2go[87498:8136961] [CDVTimer][keyboard] 0.054002ms
+2015-01-07 00:05:57.448 c2go[87498:8136961] [CDVTimer][statusbar] 53.768992ms
+2015-01-07 00:05:57.448 c2go[87498:8136961] [CDVTimer][localnotification] 0.045002ms
+2015-01-07 00:05:57.448 c2go[87498:8136961] [CDVTimer][localnotification] 0.003994ms
+2015-01-07 00:05:57.448 c2go[87498:8136961] [CDVTimer][TotalPluginStartup] 54.338992ms
+2015-01-07 00:05:57.537 c2go[87498:8136961] Resetting plugins due to page load.
+2015-01-07 00:05:58.305 c2go[87498:8136961] Finished load of: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Bundle/Application/B6777FEE-DD83-4F25-84BF-8F75DC3D235D/c2go.app/www/index.html#/launch
+2015-01-07 00:07:02.250 c2go[88338:8138536] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Data/Application/62AC2DB8-CD06-4D2C-9B50-08C7433333FD/Library/Cookies/Cookies.binarycookies
+2015-01-07 00:07:02.327 c2go[88338:8138536] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-07 00:07:02.327 c2go[88338:8138536] Multi-tasking -> Device: YES, App: YES
+2015-01-07 00:07:02.328 c2go[88338:8138536] Unlimited access to network resources
+2015-01-07 00:07:02.491 c2go[88338:8138536] [CDVTimer][keyboard] 0.066042ms
+2015-01-07 00:07:02.536 c2go[88338:8138536] [CDVTimer][statusbar] 45.192003ms
+2015-01-07 00:07:02.536 c2go[88338:8138536] [CDVTimer][localnotification] 0.041008ms
+2015-01-07 00:07:02.536 c2go[88338:8138536] [CDVTimer][localnotification] 0.003994ms
+2015-01-07 00:07:02.536 c2go[88338:8138536] [CDVTimer][TotalPluginStartup] 45.823991ms
+2015-01-07 00:07:02.613 c2go[88338:8138536] Resetting plugins due to page load.
+2015-01-07 00:07:03.442 c2go[88338:8138536] Finished load of: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Bundle/Application/85C9F857-8942-44AC-835A-CB79465FBA77/c2go.app/www/index.html#/launch
+2015-01-07 00:12:07.580 c2go[89236:8142486] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Data/Application/6BF1849F-64A1-4747-B3E4-8B46A73EB0A1/Library/Cookies/Cookies.binarycookies
+2015-01-07 00:12:07.648 c2go[89236:8142486] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-07 00:12:07.648 c2go[89236:8142486] Multi-tasking -> Device: YES, App: YES
+2015-01-07 00:12:07.649 c2go[89236:8142486] Unlimited access to network resources
+2015-01-07 00:12:07.812 c2go[89236:8142486] [CDVTimer][keyboard] 0.046015ms
+2015-01-07 00:12:07.858 c2go[89236:8142486] [CDVTimer][statusbar] 45.835018ms
+2015-01-07 00:12:07.858 c2go[89236:8142486] [CDVTimer][localnotification] 0.039995ms
+2015-01-07 00:12:07.858 c2go[89236:8142486] [CDVTimer][localnotification] 0.002980ms
+2015-01-07 00:12:07.858 c2go[89236:8142486] [CDVTimer][TotalPluginStartup] 46.388984ms
+2015-01-07 00:12:07.938 c2go[89236:8142486] Resetting plugins due to page load.
+2015-01-07 00:12:08.213 c2go[89236:8142486] Finished load of: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Bundle/Application/59F265A8-9F3C-4459-A9B8-2AFE8C496C9E/c2go.app/www/index.html#/launch
+2015-01-07 00:20:35.870 c2go[90103:8149547] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Data/Application/C36ACA60-B50D-4847-AF27-9B8967427437/Library/Cookies/Cookies.binarycookies
+2015-01-07 00:20:35.953 c2go[90103:8149547] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-07 00:20:35.954 c2go[90103:8149547] Multi-tasking -> Device: YES, App: YES
+2015-01-07 00:20:35.955 c2go[90103:8149547] Unlimited access to network resources
+2015-01-07 00:20:36.130 c2go[90103:8149547] [CDVTimer][keyboard] 0.048995ms
+2015-01-07 00:20:36.146 c2go[90103:8149547] [CDVTimer][statusbar] 15.605986ms
+2015-01-07 00:20:36.146 c2go[90103:8149547] [CDVTimer][localnotification] 0.052989ms
+2015-01-07 00:20:36.146 c2go[90103:8149547] [CDVTimer][localnotification] 0.004947ms
+2015-01-07 00:20:36.146 c2go[90103:8149547] [CDVTimer][TotalPluginStartup] 16.153991ms
+2015-01-07 00:20:36.201 c2go[90103:8149547] Resetting plugins due to page load.
+2015-01-07 00:20:36.458 c2go[90103:8149547] Finished load of: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Bundle/Application/6C2A4AB8-4924-4FF5-9484-84A621A92027/c2go.app/www/index.html#/launch
+2015-01-07 00:21:42.964 c2go[90945:8151140] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Data/Application/4BAA2D70-783C-4F0E-A91C-B4FEA405676B/Library/Cookies/Cookies.binarycookies
+2015-01-07 00:21:43.042 c2go[90945:8151140] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-07 00:21:43.042 c2go[90945:8151140] Multi-tasking -> Device: YES, App: YES
+2015-01-07 00:21:43.044 c2go[90945:8151140] Unlimited access to network resources
+2015-01-07 00:21:43.217 c2go[90945:8151140] [CDVTimer][keyboard] 0.050008ms
+2015-01-07 00:21:43.233 c2go[90945:8151140] [CDVTimer][statusbar] 15.686989ms
+2015-01-07 00:21:43.233 c2go[90945:8151140] [CDVTimer][localnotification] 0.045002ms
+2015-01-07 00:21:43.233 c2go[90945:8151140] [CDVTimer][localnotification] 0.003994ms
+2015-01-07 00:21:43.233 c2go[90945:8151140] [CDVTimer][TotalPluginStartup] 16.224980ms
+2015-01-07 00:21:43.288 c2go[90945:8151140] Resetting plugins due to page load.
+2015-01-07 00:21:43.557 c2go[90945:8151140] Finished load of: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Bundle/Application/3FD4B151-D57F-4D2F-94BE-15303A90175A/c2go.app/www/index.html#/launch
+2015-01-07 00:24:37.414 c2go[91813:8153700] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Data/Application/A9858BE4-7112-43CD-846F-21426F9780FC/Library/Cookies/Cookies.binarycookies
+2015-01-07 00:24:37.489 c2go[91813:8153700] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-07 00:24:37.490 c2go[91813:8153700] Multi-tasking -> Device: YES, App: YES
+2015-01-07 00:24:37.491 c2go[91813:8153700] Unlimited access to network resources
+2015-01-07 00:24:37.664 c2go[91813:8153700] [CDVTimer][keyboard] 0.067949ms
+2015-01-07 00:24:37.682 c2go[91813:8153700] [CDVTimer][statusbar] 17.054021ms
+2015-01-07 00:24:37.682 c2go[91813:8153700] [CDVTimer][localnotification] 0.040948ms
+2015-01-07 00:24:37.682 c2go[91813:8153700] [CDVTimer][localnotification] 0.003994ms
+2015-01-07 00:24:37.682 c2go[91813:8153700] [CDVTimer][TotalPluginStartup] 17.667949ms
+2015-01-07 00:24:37.738 c2go[91813:8153700] Resetting plugins due to page load.
+2015-01-07 00:24:38.101 c2go[91813:8153700] Finished load of: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Bundle/Application/11EF6A26-155F-498C-89B0-CADCB4D82AB5/c2go.app/www/index.html#/launch
+2015-01-07 00:25:58.063 c2go[92654:8155495] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Data/Application/95D92B59-C32E-44C1-A282-1B374EF02614/Library/Cookies/Cookies.binarycookies
+2015-01-07 00:25:58.138 c2go[92654:8155495] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-07 00:25:58.139 c2go[92654:8155495] Multi-tasking -> Device: YES, App: YES
+2015-01-07 00:25:58.140 c2go[92654:8155495] Unlimited access to network resources
+2015-01-07 00:25:58.316 c2go[92654:8155495] [CDVTimer][keyboard] 0.048995ms
+2015-01-07 00:25:58.332 c2go[92654:8155495] [CDVTimer][statusbar] 15.814006ms
+2015-01-07 00:25:58.333 c2go[92654:8155495] [CDVTimer][localnotification] 0.038028ms
+2015-01-07 00:25:58.333 c2go[92654:8155495] [CDVTimer][localnotification] 0.004053ms
+2015-01-07 00:25:58.333 c2go[92654:8155495] [CDVTimer][TotalPluginStartup] 16.344011ms
+2015-01-07 00:25:58.394 c2go[92654:8155495] Resetting plugins due to page load.
+2015-01-07 00:25:58.702 c2go[92654:8155495] Finished load of: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Bundle/Application/2EE02323-D894-4615-B1EC-3EB5B82C1A8B/c2go.app/www/index.html#/launch
+2015-01-07 00:28:21.207 c2go[93508:8158086] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Data/Application/5011C95B-583C-4F1C-AF4A-4F02DBE4B10C/Library/Cookies/Cookies.binarycookies
+2015-01-07 00:28:21.277 c2go[93508:8158086] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-07 00:28:21.277 c2go[93508:8158086] Multi-tasking -> Device: YES, App: YES
+2015-01-07 00:28:21.278 c2go[93508:8158086] Unlimited access to network resources
+2015-01-07 00:28:21.443 c2go[93508:8158086] [CDVTimer][keyboard] 0.050962ms
+2015-01-07 00:28:21.459 c2go[93508:8158086] [CDVTimer][statusbar] 15.359998ms
+2015-01-07 00:28:21.459 c2go[93508:8158086] [CDVTimer][localnotification] 0.041008ms
+2015-01-07 00:28:21.459 c2go[93508:8158086] [CDVTimer][localnotification] 0.004053ms
+2015-01-07 00:28:21.459 c2go[93508:8158086] [CDVTimer][TotalPluginStartup] 15.915990ms
+2015-01-07 00:28:21.512 c2go[93508:8158086] Resetting plugins due to page load.
+2015-01-07 00:28:21.766 c2go[93508:8158086] Finished load of: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Bundle/Application/24BF851A-F0B6-4152-A8DE-70CB5B58B46C/c2go.app/www/index.html#/launch
+2015-01-07 00:28:48.092 c2go[94350:8159446] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Data/Application/7E916457-1E5B-4F12-B9A3-998B97AD8419/Library/Cookies/Cookies.binarycookies
+2015-01-07 00:28:48.165 c2go[94350:8159446] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-07 00:28:48.166 c2go[94350:8159446] Multi-tasking -> Device: YES, App: YES
+2015-01-07 00:28:48.167 c2go[94350:8159446] Unlimited access to network resources
+2015-01-07 00:28:48.338 c2go[94350:8159446] [CDVTimer][keyboard] 0.048041ms
+2015-01-07 00:28:48.354 c2go[94350:8159446] [CDVTimer][statusbar] 15.508056ms
+2015-01-07 00:28:48.354 c2go[94350:8159446] [CDVTimer][localnotification] 0.038028ms
+2015-01-07 00:28:48.354 c2go[94350:8159446] [CDVTimer][localnotification] 0.004053ms
+2015-01-07 00:28:48.354 c2go[94350:8159446] [CDVTimer][TotalPluginStartup] 16.032994ms
+2015-01-07 00:28:48.413 c2go[94350:8159446] Resetting plugins due to page load.
+2015-01-07 00:28:48.683 c2go[94350:8159446] Finished load of: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Bundle/Application/6074461C-619A-4919-827D-C55D504DFA86/c2go.app/www/index.html#/launch
+2015-01-07 00:28:48.812 c2go[94350:8159446] THREAD WARNING: ['StatusBar'] took '12.305176' ms. Plugin should use a background thread.
+2015-01-07 00:29:41.460 c2go[95196:8161030] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Data/Application/D9029365-92E7-471D-832E-86F7CE97F1B8/Library/Cookies/Cookies.binarycookies
+2015-01-07 00:29:41.531 c2go[95196:8161030] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-07 00:29:41.532 c2go[95196:8161030] Multi-tasking -> Device: YES, App: YES
+2015-01-07 00:29:41.533 c2go[95196:8161030] Unlimited access to network resources
+2015-01-07 00:29:41.702 c2go[95196:8161030] [CDVTimer][keyboard] 0.050008ms
+2015-01-07 00:29:41.719 c2go[95196:8161030] [CDVTimer][statusbar] 16.960025ms
+2015-01-07 00:29:41.719 c2go[95196:8161030] [CDVTimer][localnotification] 0.038028ms
+2015-01-07 00:29:41.719 c2go[95196:8161030] [CDVTimer][localnotification] 0.003994ms
+2015-01-07 00:29:41.719 c2go[95196:8161030] [CDVTimer][TotalPluginStartup] 17.485976ms
+2015-01-07 00:29:41.777 c2go[95196:8161030] Resetting plugins due to page load.
+2015-01-07 00:29:42.047 c2go[95196:8161030] Finished load of: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Bundle/Application/CF47A0DA-D615-47C0-95FA-8EC582AA6E1E/c2go.app/www/index.html#/launch
+2015-01-07 00:30:15.654 c2go[96033:8162484] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Data/Application/74054D45-B51E-4941-834D-52B0F2BFA53C/Library/Cookies/Cookies.binarycookies
+2015-01-07 00:30:15.738 c2go[96033:8162484] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-07 00:30:15.739 c2go[96033:8162484] Multi-tasking -> Device: YES, App: YES
+2015-01-07 00:30:15.741 c2go[96033:8162484] Unlimited access to network resources
+2015-01-07 00:30:15.911 c2go[96033:8162484] [CDVTimer][keyboard] 0.055015ms
+2015-01-07 00:30:15.927 c2go[96033:8162484] [CDVTimer][statusbar] 15.549958ms
+2015-01-07 00:30:15.927 c2go[96033:8162484] [CDVTimer][localnotification] 0.296950ms
+2015-01-07 00:30:15.927 c2go[96033:8162484] [CDVTimer][localnotification] 0.005007ms
+2015-01-07 00:30:15.927 c2go[96033:8162484] [CDVTimer][TotalPluginStartup] 16.344965ms
+2015-01-07 00:30:16.478 c2go[96033:8162484] Resetting plugins due to page load.
+2015-01-07 00:30:17.265 c2go[96033:8162484] Finished load of: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Bundle/Application/8E0F5BAE-6F11-426A-8DD6-2F44946B2885/c2go.app/www/index.html#/launch
