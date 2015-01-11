@@ -48,6 +48,10 @@ angular.module('c2go', ['ionic', 'ngResource', 'ngCordova', 'ngMaterial'])
           url: "/signup2",
           templateUrl: 'template/user/signup2.html'
         })
+        .state('user.signup3', {
+          url: "/signup3",
+          templateUrl: 'template/user/signup3.html'
+        })
         .state('user.logout', {
           url: "/logout",
           controller: 'LogoutController'
@@ -61,13 +65,25 @@ angular.module('c2go', ['ionic', 'ngResource', 'ngCordova', 'ngMaterial'])
           abstract: true,
           templateUrl: 'template/payment/root.html'
         })
-        .state('payment.selectRecipient', {
-          url: "/selectRecipient",
-          templateUrl: 'template/payment/selectRecipient.html'
+        .state('payment.sendMoney', {
+          url: "/sendMoney",
+          templateUrl: 'template/payment/sendMoney.html'
         })
-        .state('payment.send', {
-          url: "/send",
-          templateUrl: 'template/payment/send.html'
+        .state('payment.sendMoney2', {
+          url: "/sendMoney2",
+          templateUrl: 'template/payment/sendMoney2.html'
+        })
+        .state('payment.splitCommission', {
+          url: "/splitCommission",
+          templateUrl: 'template/payment/splitCommission.html'
+        })
+        .state('payment.splitCommission2', {
+          url: "/splitCommission",
+          templateUrl: 'template/payment/splitCommission2.html'
+        })
+        .state('payment.splitCommission3', {
+          url: "/splitCommission",
+          templateUrl: 'template/payment/splitCommission3.html'
         })
         .state('payment.history', {
           url: "/history",

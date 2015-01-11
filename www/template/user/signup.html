@@ -9,7 +9,7 @@
             <div style="padding-left: 20px;padding-right: 20px;">
                 <div layout="row">
                     <div flex="30" style="padding-top: 25px;">
-                        <img src="/assets/unknownUser.jpg">
+                        <img src="img/unknownUser.png">
                     </div>
                     <div flex>
                         <div>
@@ -39,8 +39,8 @@
                     <md-text-float type="text" ng-model="date" label="DOB" style="width: 100%;margin: 0px;">
                 </div>
                 <div ng-init="show=true">
-                    <div style="border-bottom: 1px solid rgba(0,0,0,0.16);color: rgba(0,0,0,0.26);padding-top: 20px;padding-bottom: 10px;" ng-click="show=!show">
-                        Billing address <i ng-class="{'ion-chevron-down': show, 'ion-chevron-up': !show}" style="float: right;"></i>
+                    <div style="width: 100%;border-bottom: 1px solid rgba(0,0,0,0.16);color: rgba(0,0,0,0.26);padding-top: 20px;padding-bottom: 10px;" ng-click="show=!show">
+                        Billing address <i ng-class="{'ion-chevron-right': show, 'ion-chevron-down': !show}" style="float: right;"></i>
                     </div>
                     <div ng-show="!show">
                         <div>
@@ -69,6 +69,6 @@
         </ion-content>
 
         <ion-footer-bar class="bar-c2go bar-footer">
-            <div class="footer-button" ui-sref="meeting.comment">Next</div>
+            <div class="footer-button" ui-sref="user.signup2">Next</div>
         </ion-footer-bar>
 </ion-view>

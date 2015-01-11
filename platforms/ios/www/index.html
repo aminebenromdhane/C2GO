@@ -7,7 +7,6 @@
 
     <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
     -->
-    <link href="css/style.css" rel="stylesheet">
     <link href="css/ionic.app.css" rel="stylesheet">
     <link rel="stylesheet" href="lib/angular-material/angular-material.css">
 
@@ -39,7 +38,7 @@
 
     <script src="js/launch/controllers/LaunchController.js"></script>
 
-    <script src="js/login/controllers/LoginController.js"></script>
+    <script src="js/user/controllers/LoginController.js"></script>
 
     <script src="js/activationPromt/controllers/ActivationPromtController.js"></script>
 
@@ -48,6 +47,16 @@
     <script src="js/accountTerms/controllers/AccountTermsController.js"></script>
 
     <script src="js/createConfirmation/controllers/CreateConfirmationController.js"></script>
+
+    <script src="js/specialDetails/controllers/SpecialDetailsController.js"></script>
+
+    <script src="js/promoFilter/controllers/PromoFilterController.js"></script>
+
+    <script src="js/transactions/controllers/TransactionsController.js"></script>
+
+    <script src="js/send/controllers/SendController.jss"></script>
+
+    <script src="js/sendConfirmation/controllers/SendConfirmationController.js"></script>
 
   </head>
   <body ng-app="c2go" animation="slide-left-right-ios7" class="platform-ios platform-cordova platform-webview">
@@ -59,10 +68,25 @@
 
       <ion-side-menu side="left">
         <ion-content ng-controller="MenuController as menu">
+          <div style="height: 65px;background: #2ac3f1;"></div>
           <ion-list class="nav-list">
-            <ion-item nav-clear menu-close ui-sref="news.daily" ui-sref-active="nav-active">
-              <i class="md md-mood md-lg"></i>
-              Test
+            <ion-item nav-clear menu-close ui-sref="launch" ui-sref-active="nav-active">
+              Home
+            </ion-item>
+            <ion-item nav-clear menu-close ui-sref="payment.history" ui-sref-active="nav-active">
+              Transactions
+            </ion-item>
+            <ion-item nav-clear menu-close ui-sref="payment.sendMoney" ui-sref-active="nav-active">
+              Send Money
+            </ion-item>
+            <ion-item nav-clear menu-close ui-sref="payment.splitCommission" ui-sref-active="nav-active">
+              Split Commission
+            </ion-item>
+            <ion-item nav-clear menu-close ui-sref="user.login" ui-sref-active="nav-active">
+              Login
+            </ion-item>
+            <ion-item nav-clear menu-close ui-sref="user.signup" ui-sref-active="nav-active">
+              Signup
             </ion-item>
           </ion-list>
         </ion-content>

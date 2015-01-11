@@ -30,37 +30,65 @@ angular.module('c2go', ['ionic', 'ngResource', 'ngCordova', 'ngMaterial'])
           controller: 'LaunchController as launch'
         })
 
-        .state('login', {
-          url: '/login',
-          templateUrl: 'template/login/login.html',
-          controller: 'LoginController as login'
+        .state('user', {
+          url: "/user",
+          abstract: true,
+          templateUrl: 'template/user/root.html'
+        })
+        .state('user.login', {
+          url: "/login",
+          templateUrl: 'template/user/login.html',
+          controller: 'LoginController as loginCtrl'
+        })
+        .state('user.signup', {
+          url: "/signup",
+          templateUrl: 'template/user/signup.html'
+        })
+        .state('user.signup2', {
+          url: "/signup2",
+          templateUrl: 'template/user/signup2.html'
+        })
+        .state('user.signup3', {
+          url: "/signup3",
+          templateUrl: 'template/user/signup3.html'
+        })
+        .state('user.logout', {
+          url: "/logout",
+          controller: 'LogoutController'
         })
 
-        .state('activationPromt', {
-          url: '/activationPromt',
-          templateUrl: 'template/activationPromt/activationPromt.html',
-          controller: 'ActivationPromtController as activationPromt'
-        })
 
-        .state('createAccount', {
-          url: '/createAccount',
-          templateUrl: 'template/createAccount/createAccount.html',
-          controller: 'CreateAccountController as createAccount'
-        })
 
-        .state('accountTerms', {
-          url: '/accountTerms',
-          templateUrl: 'template/accountTerms/accountTerms.html',
-          controller: 'AccountTermsController as accountTerms'
-        })
 
-        .state('createConfirmation', {
-          url: '/createConfirmation',
-          templateUrl: 'template/createConfirmation/createConfirmation.html',
-          controller: 'CreateConfirmationController as createConfirmation'
+        .state('payment', {
+          url: "/payment",
+          abstract: true,
+          templateUrl: 'template/payment/root.html'
         })
-
-      ;
+        .state('payment.sendMoney', {
+          url: "/sendMoney",
+          templateUrl: 'template/payment/sendMoney.html'
+        })
+        .state('payment.sendMoney2', {
+          url: "/sendMoney2",
+          templateUrl: 'template/payment/sendMoney2.html'
+        })
+        .state('payment.splitCommission', {
+          url: "/splitCommission",
+          templateUrl: 'template/payment/splitCommission.html'
+        })
+        .state('payment.splitCommission2', {
+          url: "/splitCommission",
+          templateUrl: 'template/payment/splitCommission2.html'
+        })
+        .state('payment.splitCommission3', {
+          url: "/splitCommission",
+          templateUrl: 'template/payment/splitCommission3.html'
+        })
+        .state('payment.history', {
+          url: "/history",
+          templateUrl: 'template/payment/history.html'
+        });
 
       $urlRouterProvider.otherwise('/');
 

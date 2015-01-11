@@ -68,13 +68,20 @@
 
       <ion-side-menu side="left">
         <ion-content ng-controller="MenuController as menu">
+          <div style="height: 65px;background: #2ac3f1;"></div>
           <ion-list class="nav-list">
+            <ion-item nav-clear menu-close ui-sref="launch" ui-sref-active="nav-active">
+              Home
+            </ion-item>
             <ion-item nav-clear menu-close ui-sref="payment.history" ui-sref-active="nav-active">
-            Transactions
-          </ion-item>
-          <ion-item nav-clear menu-close ui-sref="payment.selectRecipient" ui-sref-active="nav-active">
-            Send Money
-          </ion-item>
+              Transactions
+            </ion-item>
+            <ion-item nav-clear menu-close ui-sref="payment.sendMoney" ui-sref-active="nav-active">
+              Send Money
+            </ion-item>
+            <ion-item nav-clear menu-close ui-sref="payment.splitCommission" ui-sref-active="nav-active">
+              Split Commission
+            </ion-item>
             <ion-item nav-clear menu-close ui-sref="user.login" ui-sref-active="nav-active">
               Login
             </ion-item>
