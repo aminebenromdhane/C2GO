@@ -1,11 +1,11 @@
 'use strict';
 
-angular.module('addicaid').controller('IntroController', ['$scope', '$state', '$ionicSlideBoxDelegate',
+angular.module('c2go').controller('IntroController', ['$scope', '$state', '$ionicSlideBoxDelegate',
   function($scope, $state, $ionicSlideBoxDelegate) {
-    var scope = this;
+    var _this = this;
 
     this.startApp = function() {
-      $state.go('news.daily');
+//      $state.go('news.daily');
       window.localStorage['didTutorial'] = true;
     };
 

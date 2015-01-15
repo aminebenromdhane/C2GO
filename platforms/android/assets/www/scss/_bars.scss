@@ -1,41 +1,26 @@
 
-&.bar-addicaid {
-  @include bar-style($bar-light-bg, $bar-light-border, $bar-addicaid-text);
+&.bar-c2go {
+  @include bar-style($bright-blue, $bright-blue, $white);
   &.bar-footer{
     @include bar-style($bar-positive-bg, $bar-positive-border, $bar-positive-text);
     background-image: linear-gradient(180deg, $bar-positive-border, $bar-positive-border 50%, transparent 50%);
   }
 }
-.bar-addicaid {
+.bar-c2go {
   .button {
-    @include button-style($bar-light-bg, $bar-light-border, $bar-light-active-bg, $bar-light-active-border, $bar-addicaid-text);
-    @include button-clear($bar-addicaid-text, $bar-title-font-size);
+    @include button-style($bar-light-bg, $bar-light-border, $bar-light-active-bg, $bar-light-active-border, $white);
+    @include button-clear($white, $bar-title-font-size);
   }
 }
-.footer-button{
-  width:100%;
-  text-align:center;
-  padding-top: 7px;
+
+
+.bar-c2go > * {
+  color: $white;
 }
 
-.bar-addicaid {
-  background: $orange;
-  color: white;
-  box-shadow: 0px 1px 8px rgba(114,68,34,0.7);
-}
-
-.bar-addicaid > * {
-  color: white;
-}
-
-.bar-addicaid .title {
+.bar-c2go .title {
   font-family: "Roboto";
   font-weight: 600;
-  color: white;
-}
-
-.white {
-  color: white;
 }
 
 .white.md-lg {
@@ -46,17 +31,26 @@
   padding: 0px 1px;
 }
 
-.bar-addicaid.bar-footer {
-  background: $med-blue;
-  background-color: $med-blue;
+.bar-c2go.bar-footer {
+  background: $bright-blue;
+  background-color: $bright-blue;
   background-image: none;
 }
 
-.bright-blue {
-  background: $bright-blue;
-  background-color: $bright-blue;
+.hidden-bar{
+  background-image: none;
 }
 
-.footer-button {
+.hidden-bar .button{
+  background: $bright-blue !important;
+  background-color: $bright-blue !important;
+  color: $white;
+  width: 100%;
+}
+
+.footer-button{
+  width:100%;
+  text-align:center;
+  padding-top: 7px;
   font-size: 18px;
 }
