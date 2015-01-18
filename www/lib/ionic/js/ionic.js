@@ -6905,7 +6905,7 @@ ionic.views.Slider = ionic.views.View.inherit({
       // cache slides
       slides = element.children;
       length = slides.length;
-      //index = slides.length - 1;
+
       // set continuous to false if only one slide
       if (slides.length < 2) options.continuous = false;
 

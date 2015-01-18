@@ -6,37 +6,61 @@
         <h1 class="title">Create Account</h1>
     </ion-header-bar>
     <ion-content class="has-header">
-            <div style="padding-left: 20px;padding-right: 20px;">
+            <div>
                 <div layout="row">
-                    <div flex="30" style="padding-top: 25px;">
+                    <div flex="30">
                         <img src="img/unknownUser.png">
                     </div>
                     <div flex>
                         <div>
-                            <md-text-float type="text" ng-model="fname" label="First Name" style="margin: 0px;">
+                            <md-input-container>
+                                <label>First Name</label>
+                                <input type="text" ng-model="fname">
+                            </md-input-container>
                         </div>
                         <div>
-                            <md-text-float type="text" ng-model="lname" label="Last Name" style="margin: 0px;">
+                            <md-input-container>
+                                <label>Last Name</label>
+                                <input type="text" ng-model="lname" style="...">
+                            </md-input-container>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <md-text-float type="password" ng-model="password" label="Password" style="width: 100%;margin: 0px;">
+                    <md-input-container style="width: 100%;margin: 0px;">
+                        <label>Password</label>
+                        <input type="password" ng-model="password">
+                    </md-input-container>
                 </div>
                 <div>
-                    <md-text-float type="text" ng-model="email" label="E-mail" style="width: 100%;margin: 0px;">
+                    <md-input-container>
+                        <label>E-mail</label>
+                        <input type="text" ng-model="email">
+                    </md-input-container>
                 </div>
                 <div>
-                    <md-text-float type="text" ng-model="phone" label="phone" style="width: 100%;margin: 0px;">
+                    <md-input-container>
+                        <label>phone</label>
+                        <input type="text" ng-model="phone">
+                    </md-input-container>
                 </div>
                 <div>
-                    <md-text-float type="text" ng-model="sec" label="Last 4 digits of social security number" style="width: 100%;margin: 0px;">
+                    <md-input-container>
+                        <label>Last 4 digits of social security number</label>
+                        <input type="text" ng-model="sec">
+                    </md-input-container>
                 </div>
                 <div>
-                    <md-text-float type="text" ng-model="confirm" label="confirm" style="width: 100%;margin: 0px;">
+                    <md-input-container>
+                        <label>Confirm</label>
+                        <input type="text" ng-model="confirm">
+                    </md-input-container>
                 </div>
                 <div>
-                    <md-text-float type="text" ng-model="date" label="DOB" style="width: 100%;margin: 0px;">
+                    <md-input-container>
+                        <label>DOB</label>
+                        <input type="text" ng-model="date">
+                    </md-input-container>
                 </div>
                 <div ng-init="show=true">
                     <div style="width: 100%;border-bottom: 1px solid rgba(0,0,0,0.16);color: rgba(0,0,0,0.26);padding-top: 20px;padding-bottom: 10px;" ng-click="show=!show">
@@ -44,20 +68,35 @@
                     </div>
                     <div ng-show="!show">
                         <div>
-                            <md-text-float type="text" ng-model="b1" label="Billing address" style="width: 100%;margin: 0px;">
+                            <md-input-container>
+                                <label>Billing address</label>
+                                <input type="text" ng-model="b1">
+                            </md-input-container>
                         </div>
                         <div>
-                            <md-text-float type="text" ng-model="b2" label="Billing address line 2" style="width: 100%;margin: 0px;">
+                            <md-input-container>
+                                <label>Billing address line 2</label>
+                                <input type="text" ng-model="b2">
+                            </md-input-container>
                         </div>
                         <div>
-                            <md-text-float type="text" ng-model="city" label="City" style="width: 100%;margin: 0px;">
+                            <md-input-container>
+                                <label>City</label>
+                                <input type="text" ng-model="city">
+                            </md-input-container>
                         </div>
                         <div layout="row">
                             <div flex="65">
-                                <md-text-float type="text" ng-model="state" label="State" style="width: 100%;margin: 0px;">
+                                <md-input-container>
+                                    <label>State</label>
+                                    <input type="text" ng-model="state">
+                                </md-input-container>
                             </div>
                             <div flex style="padding-left: 10px;">
-                                <md-text-float type="text" ng-model="zip" label="Zip" style="width: 100%;margin: 0px;">
+                                <md-input-container>
+                                    <label>Zip</label>
+                                    <input type="text" ng-model="zip">
+                                </md-input-container>
                             </div>
                         </div>
                     </div>
