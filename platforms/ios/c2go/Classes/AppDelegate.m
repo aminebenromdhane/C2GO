@@ -19,7 +19,7 @@
 
 //
 //  AppDelegate.m
-//  addicaid-ionic
+//  c2go
 //
 //  Created by ___FULLUSERNAME___ on ___DATE___.
 //  Copyright ___ORGANIZATIONNAME___ ___YEAR___. All rights reserved.
@@ -92,7 +92,7 @@
 }
 
 // this happens while we are running ( in the background, or from within our own app )
-// only valid if addicaid-ionic-Info.plist specifies a protocol to handle
+// only valid if c2go-Info.plist specifies a protocol to handle
 - (BOOL)application:(UIApplication*)application openURL:(NSURL*)url sourceApplication:(NSString*)sourceApplication annotation:(id)annotation
 {
     if (!url) {

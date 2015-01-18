@@ -1,18 +1,9 @@
-angular.module('addicaid', ['ionic', 'ngResource', 'ngCordova', 'leaflet-directive', 'ngMaterial'])
-    //.constant('apiRoot', 'http://dev.addicaid.com/')
-    //.constant('apiRoot', 'http://localhost:1337/')
-    .constant('apiRoot', 'http://192.168.56.1:1337/')
-    .constant('home', 'news.daily')
-    .run(function($ionicPlatform, $cordovaStatusbar, geoUtils, notificationNewsService) {
+angular.module('c2go', ['ionic', 'ngResource', 'ngCordova', 'ngMaterial'])
+    .run(function($ionicPlatform, $cordovaStatusbar) {
       $ionicPlatform.ready(function() {
         if(window.cordova && window.cordova.plugins.Keyboard) {
           cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
         }
-        $cordovaStatusbar.overlaysWebView(true);
-        $cordovaStatusbar.styleHex('#FFFFFF');
-        geoUtils.watch();
-        notificationNewsService.permission();
-        notificationNewsService.watch();
       });
     })
 
@@ -33,38 +24,11 @@ angular.module('addicaid', ['ionic', 'ngResource', 'ngCordova', 'leaflet-directi
           controller: 'IntroController as intro'
         })
 
-
-        .state('meeting', {
-          abstract: true,
-          controller: 'MeetingRootController as meetingRootCtrl',
-          templateUrl: 'template/meeting/root.html'
+        .state('launch', {
+          url: '/launch',
+          templateUrl: 'template/launch/launch.html',
+          controller: 'LaunchController as launch'
         })
-        .state('meeting.map', {
-          url: '/map',
-          templateUrl: 'template/meeting/map.html',
-          controller: 'MapController as map'
-        })
-        .state('meeting.list', {
-          url: '/list',
-          templateUrl: 'template/meeting/list.html',
-          controller: 'ListController as list'
-        })
-        .state('meeting.filterLocation', {
-          url: '/filterLocation',
-          templateUrl: 'template/meeting/filterLocation.html',
-          controller: 'FilterLocationController as locationCtrl'
-        })
-        .state('meeting.filters', {
-          url: '/filters',
-          templateUrl: 'template/meeting/filters.html',
-          controller: 'FiltersController as filters'
-        })
-        .state('meeting.detail', {
-          url: '/meeting/:meetingId',
-          templateUrl: 'template/meeting/detail.html',
-          controller: 'MeetingController as meetingCtrl'
-        })
-
 
         .state('user', {
           url: "/user",
@@ -78,34 +42,52 @@ angular.module('addicaid', ['ionic', 'ngResource', 'ngCordova', 'leaflet-directi
         })
         .state('user.signup', {
           url: "/signup",
-          templateUrl: 'template/user/signup.html',
-          controller: 'SignupController as signupCtrl'
+          templateUrl: 'template/user/signup.html'
+        })
+        .state('user.signup2', {
+          url: "/signup2",
+          templateUrl: 'template/user/signup2.html'
+        })
+        .state('user.signup3', {
+          url: "/signup3",
+          templateUrl: 'template/user/signup3.html'
         })
         .state('user.logout', {
           url: "/logout",
           controller: 'LogoutController'
         })
-        .state('user.profile', {
-          url: "/profile",
-          templateUrl: 'template/user/profile.html',
-          controller: 'ProfileController as profile'
-        })
 
 
-        .state('news', {
-          url: "/news",
+
+
+        .state('payment', {
+          url: "/payment",
           abstract: true,
-          templateUrl: 'template/news/root.html'
+          templateUrl: 'template/payment/root.html'
         })
-        .state('news.all', {
-          url: "/allNews",
-          templateUrl: 'template/news/all.html',
-          controller: 'AllNewsController as allNews'
+        .state('payment.sendMoney', {
+          url: "/sendMoney",
+          templateUrl: 'template/payment/sendMoney.html'
         })
-        .state('news.daily', {
-          url: "/dailyNews",
-          templateUrl: 'template/news/daily.html',
-          controller: 'DailyNewsController as dailyNewsCtrl'
+        .state('payment.sendMoney2', {
+          url: "/sendMoney2",
+          templateUrl: 'template/payment/sendMoney2.html'
+        })
+        .state('payment.splitCommission', {
+          url: "/splitCommission",
+          templateUrl: 'template/payment/splitCommission.html'
+        })
+        .state('payment.splitCommission2', {
+          url: "/splitCommission",
+          templateUrl: 'template/payment/splitCommission2.html'
+        })
+        .state('payment.splitCommission3', {
+          url: "/splitCommission",
+          templateUrl: 'template/payment/splitCommission3.html'
+        })
+        .state('payment.history', {
+          url: "/history",
+          templateUrl: 'template/payment/history.html'
         });
 
       $urlRouterProvider.otherwise('/');

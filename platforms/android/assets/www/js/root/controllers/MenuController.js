@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('addicaid').controller('MenuController', ['$state',
+angular.module('c2go').controller('MenuController', ['$state',
 function ($state) {
 
     this.goTo = function(location){

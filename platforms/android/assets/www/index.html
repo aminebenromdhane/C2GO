@@ -8,16 +8,13 @@
     <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
     -->
     <link href="css/ionic.app.css" rel="stylesheet">
-    <link rel="stylesheet" href="lib/leaflet/dist/leaflet.css">
     <link rel="stylesheet" href="lib/angular-material/angular-material.css">
-    <link href="css/addicaid-theme.css" rel="stylesheet">
 
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,300,700' rel='stylesheet' type='text/css'>
 
     <!-- ionic/angularjs js -->
     <script src="lib/ionic/js/ionic.js"></script>
     <script src="lib/hammerjs/hammer.js"></script>
-    <script src="js/hacks/custom-slide/customSlide.js"></script>
     <script src="lib/angular/angular.js"></script>
     <script src="lib/angular-animate/angular-animate.js"></script>
     <script src="lib/angular-sanitize/angular-sanitize.js"></script>
@@ -31,15 +28,7 @@
     <script src="lib/ngCordova/dist/ng-cordova.js"></script>
     <script src="cordova.js"></script>
 
-    <script src="lib/leaflet/dist/leaflet.js"></script>
-    <script src="lib/angular-leaflet-directive/dist/angular-leaflet-directive.min.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places"></script>
-
     <script src="js/app.js"></script>
-
-    <script src="js/hacks/custom-slide/customSlideAngular.js"></script>
-
-    <script src="js/hacks/phone/phoneService.js"></script>
 
     <script src="js/root/controllers/RootController.js"></script>
     <script src="js/root/controllers/MenuController.js"></script>
@@ -47,44 +36,30 @@
 
     <script src="js/intro/controllers/IntroController.js"></script>
 
-    <script src="js/meeting/services/geoUtils.js"></script>
-    <script src="js/meeting/services/mapUtils.js"></script>
-    <script src="js/meeting/services/filterUtils.js"></script>
-    <script src="js/meeting/services/meetingMapService.js"></script>
-    <script src="js/meeting/services/meetingClusterService.js"></script>
-    <script src="js/meeting/services/meetingFilterService.js"></script>
-    <script src="js/meeting/services/meetingListService.js"></script>
-    <script src="js/meeting/controllers/MeetingRootController.js"></script>
-    <script src="js/meeting/controllers/MapController.js"></script>
-    <script src="js/meeting/controllers/ListController.js"></script>
-    <script src="js/meeting/controllers/FilterLocationController.js"></script>
-    <script src="js/meeting/controllers/FiltersController.js"></script>
-    <script src="js/meeting/controllers/MeetingController.js"></script>
-    <script src="js/meeting/controllers/MapPartController.js"></script>
-    <script src="js/meeting/controllers/TagsController.js"></script>
-    <script src="js/meeting/resources/MeetingResource.js"></script>
-    <script src="js/meeting/filters/distance.js"></script>
-    <script src="js/meeting/services/meetingService.js"></script>
-    <script src="js/meeting/directives/filter.js"></script>
+    <script src="js/launch/controllers/LaunchController.js"></script>
 
-    <script src="js/user/directives/imageSlide.js"></script>
-    <script src="js/user/directives/superInput.js"></script>
-    <script src="js/user/directives/UploadChoiceController.js"></script>
-    <script src="js/user/resources/UserResource.js"></script>
-    <script src="js/user/services/userService.js"></script>
     <script src="js/user/controllers/LoginController.js"></script>
-    <script src="js/user/controllers/SignupController.js"></script>
-    <script src="js/user/controllers/ProfileController.js"></script>
 
-    <script src="js/news/resources/NewsResource.js"></script>
-    <script src="js/news/services/notificationNewsService.js"></script>
-    <script src="js/news/services/dailyNewsService.js"></script>
-    <script src="js/news/services/newsService.js"></script>
-    <script src="js/news/controllers/AllNewsController.js"></script>
-    <script src="js/news/controllers/DailyNewsController.js"></script>
+    <script src="js/activationPromt/controllers/ActivationPromtController.js"></script>
+
+    <script src="js/createAccount/controllers/CreateAccountController.js"></script>
+
+    <script src="js/accountTerms/controllers/AccountTermsController.js"></script>
+
+    <script src="js/createConfirmation/controllers/CreateConfirmationController.js"></script>
+
+    <script src="js/specialDetails/controllers/SpecialDetailsController.js"></script>
+
+    <script src="js/promoFilter/controllers/PromoFilterController.js"></script>
+
+    <script src="js/transactions/controllers/TransactionsController.js"></script>
+
+    <script src="js/send/controllers/SendController.jss"></script>
+
+    <script src="js/sendConfirmation/controllers/SendConfirmationController.js"></script>
 
   </head>
-  <body ng-app="addicaid" animation="slide-left-right-ios7" class="platform-android platform-cordova platform-webview">
+  <body ng-app="c2go" animation="slide-left-right-ios7" class="platform-android platform-cordova platform-webview">
     <ion-side-menus>
 
       <ion-side-menu-content drag-content="false">
@@ -93,70 +68,26 @@
 
       <ion-side-menu side="left">
         <ion-content ng-controller="MenuController as menu">
-          <div class="logged-out">
-            <div layout="row" class="prompt">
-              <img src="img/astronaut-wave.svg" flex="20" height="auto">
-              <h3 flex="80">Save Your Stats. <br>Give Meeting Feedback.</h3>
-            </div>
-            <div layout="row">
-              <ion-item nav-clear="" menu-close="" ng-click="menu.goTo('user.login')" class="button item" flex="45" tabindex="0">
-                Login
-              </ion-item>
-              <ion-item nav-clear="" menu-close="" ng-click="menu.goTo('user.signup')" class="button item" flex="45" tabindex="0">
-                Sign Up
-              </ion-item>
-            </div>
-          </div>
-          <!-- logged in -->
-                      <div class="logged-in top-info" layout="row">
-                          <img src="img/astronaut-wave.svg" flex="20" height="auto">
-                          <h3 flex="80">Username</h3>
-                      </div>
-
+          <div style="height: 65px;background: #2ac3f1;"></div>
           <ion-list class="nav-list">
-            <ion-item nav-clear menu-close ui-sref="news.daily" ui-sref-active="nav-active">
-              <i class="md md-mood md-lg"></i>
-              Addicaid of The Day
+            <ion-item nav-clear menu-close ui-sref="launch" ui-sref-active="nav-active">
+              Home
             </ion-item>
-
-            <ion-item nav-clear menu-close ui-sref="user.profile" ui-sref-active="nav-active">
-              <i class="md md-mood md-lg"></i>
-              Profile
+            <ion-item nav-clear menu-close ui-sref="payment.history" ui-sref-active="nav-active">
+              Transactions
             </ion-item>
-
-            <ion-item nav-clear menu-close ui-sref="meeting.map" ui-sref-active="nav-active">
-              <i class="md md-map md-lg"></i>
-              Meeting Map
+            <ion-item nav-clear menu-close ui-sref="payment.sendMoney" ui-sref-active="nav-active">
+              Send Money
             </ion-item>
-            <ion-item nav-clear menu-close ui-sref="meeting.list" ui-sref-active="nav-active">
-              <i class="md md-more-vert md-lg"></i>
-              Meeting List
+            <ion-item nav-clear menu-close ui-sref="payment.splitCommission" ui-sref-active="nav-active">
+              Split Commission
             </ion-item>
-
-            <ion-item nav-clear menu-close ui-sref="meeting.filterLocation" ui-sref-active="nav-active">
-              <i class="md md-search md-lg"></i>
-              Meeting Filter
+            <ion-item nav-clear menu-close ui-sref="user.login" ui-sref-active="nav-active">
+              Login
             </ion-item>
-            <ion-item nav-clear menu-close ui-sref="news.all" ui-sref-active="nav-active">
-              <i class="md md-public md-lg"></i>
-              News
+            <ion-item nav-clear menu-close ui-sref="user.signup" ui-sref-active="nav-active">
+              Signup
             </ion-item>
-            <ion-item nav-clear menu-close href="#/app/search">
-              <i class="md md-message md-lg"></i>
-              Feedback
-            </ion-item>
-
-            <ion-item nav-clear menu-close href="#/app/search">
-              <i class="md md-share md-lg"></i>
-              Share App
-            </ion-item>
-
-            <div class="logout">
-              <ion-item nav-clear menu-close ui-sref="user.logout">
-                <i class="md md-exit-to-app md-lg"></i>
-                Logout
-              </ion-item>
-            </div>
           </ion-list>
         </ion-content>
       </ion-side-menu>

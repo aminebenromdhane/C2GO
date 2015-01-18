@@ -1,14 +1,13 @@
 'use strict';
 
-angular.module('addicaid').controller('RootController', ['$state',
+angular.module('c2go').controller('RootController', ['$state',
   function($state) {
 
-    if(window.localStorage['didTutorial'] === "true") {
-      $state.go('news.daily');
+    $state.go('launch');
+/*    if(window.localStorage['didTutorial'] === "true") {
+      $state.go('intro');
     }else{
-      $state.go('news.daily');
-      //$state.go('intro');
+      $state.go('intro');
     }
-
-
+*/
  }]);
