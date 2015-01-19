@@ -35,27 +35,8 @@
 
     <script src="js/intro/controllers/IntroController.js"></script>
 
-    <script src="js/launch/controllers/LaunchController.js"></script>
-
     <script src="js/user/controllers/LoginController.js"></script>
 
-    <script src="js/activationPromt/controllers/ActivationPromtController.js"></script>
-
-    <script src="js/createAccount/controllers/CreateAccountController.js"></script>
-
-    <script src="js/accountTerms/controllers/AccountTermsController.js"></script>
-
-    <script src="js/createConfirmation/controllers/CreateConfirmationController.js"></script>
-
-    <script src="js/specialDetails/controllers/SpecialDetailsController.js"></script>
-
-    <script src="js/promoFilter/controllers/PromoFilterController.js"></script>
-
-    <script src="js/transactions/controllers/TransactionsController.js"></script>
-
-    <script src="js/send/controllers/SendController.jss"></script>
-
-    <script src="js/sendConfirmation/controllers/SendConfirmationController.js"></script>
 
   </head>
   <body ng-app="c2go" animation="slide-left-right-ios7" class="platform-android platform-cordova platform-webview">
@@ -67,9 +48,13 @@
 
       <ion-side-menu side="left">
         <ion-content ng-controller="MenuController as menu">
-          <div style="height: 65px;background: #2ac3f1;"></div>
           <ion-list class="nav-list">
-            <ion-item nav-clear menu-close ui-sref="launch" ui-sref-active="nav-active">
+          <ion-item nav-clear menu-close ui-sref="user.profile" ui-sref-active="nav-active">
+          <div class="top" style="height: 65px;" >
+          Profile
+          </div>
+          </ion-item>
+            <ion-item nav-clear menu-close ui-sref="intro({slide: 5})"  ui-sref-active="nav-active">
               Home
             </ion-item>
             <ion-item nav-clear menu-close ui-sref="payment.history" ui-sref-active="nav-active">

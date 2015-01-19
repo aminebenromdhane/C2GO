@@ -54,6 +54,7 @@
 /Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/fonts/glyphicons-halflings-regular.svg \
 /Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/fonts/glyphicons-halflings-regular.ttf \
 /Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/fonts/glyphicons-halflings-regular.woff \
+/Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/fonts/lanenar_Lane.ttf \
 /Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/fonts/Material-Design-Iconic-Font.eot \
 /Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/fonts/Material-Design-Iconic-Font.svg \
 /Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/fonts/Material-Design-Iconic-Font.ttf \
@@ -79,8 +80,16 @@
 /Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/fonts/RobotoCondensed-Regular.ttf \
 /Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/img/avatars \
 /Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/img/back.png \
+/Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/img/blur.jpg \
+/Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/img/blurbk.jpg \
+/Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/img/blurbk2.jpg \
+/Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/img/blurbk3.jpg \
+/Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/img/c2go-logo-white.svg \
 /Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/img/confirm.png \
+/Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/img/hand-card.png \
 /Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/img/img.png \
+/Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/img/png.png \
+/Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/img/profile.jpg \
 /Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/img/unknownUser.png \
 /Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/img/avatars/8bit1.jpg \
 /Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/img/avatars/8bitgirl.jpg \
@@ -767,6 +776,7 @@
 /Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/template/root/root.html \
 /Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/template/user/login.html \
 /Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/template/user/login2.html \
+/Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/template/user/profile.html \
 /Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/template/user/root.html \
 /Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/template/user/signup.html \
 /Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/template/user/signup2.html \

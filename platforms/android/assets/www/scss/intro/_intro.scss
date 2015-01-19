@@ -1,14 +1,50 @@
+@font-face {
+  font-family: "Lane", sans-serif;
+  font-weight: bold;
+  src: url(../../fonts/lanenar_Lane.ttf);
+  src:('http://samfrons.com/lanenar_Lane.ttf');
+}
+
+* {
+  -webkit-font-smoothing: auto;
+
+  }
+
+  h1, h2, h3, h4, h5, h6, p {
+    font-family: "Lane", sans-serif;
+  font-weight: bold;
+  }
+
 .slider {
   height: 100%;
 }
 .slider-slide {
   padding-top: 80px;
-  color: #000;
-  background-color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
   text-align: center;
-
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Lane", sans-serif;
   font-weight: 300;
+}
+
+.slider-pager .slider-pager-page {
+  color: white;
+}
+
+.slide {
+  background: url(../img/blur.jpg);
+}
+
+.md-button.md-default-theme.md-primary.md-raised, .md-button.md-default-theme.md-primary.md-fab {
+  background-color: #008ed6;
+}
+
+.slide p {
+font-size: 1.2em;
+}
+.slider-slide h3 {
+  color: white;
 }
 
 #logo {
@@ -31,4 +67,32 @@
 
 .bar h1.title {
   text-align: center !important;
+}
+
+.logo {
+  height: 100px;
+  width: auto;
+}
+
+.bkimage {
+  background: url(../img/blurbk.jpg);
+  background-size: cover;
+
+}
+
+.slide2 {
+   background: url(../img/blurbk2.jpg);
+   background-size: cover;
+}
+
+
+.slide3 {
+   background: url(../img/blurbk3.jpg);
+   background-size: cover;
+   padding-left: 0;
+}
+
+
+.buttons .md-button.md-default-theme.md-primary.md-raised {
+  width: 100% !important;
 }

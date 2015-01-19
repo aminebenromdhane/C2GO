@@ -6,5 +6,4 @@ function ($state) {
     this.goTo = function(location){
         $state.go(location);
     };
-
 }]);

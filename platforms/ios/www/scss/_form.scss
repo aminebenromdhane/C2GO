@@ -14,8 +14,9 @@ input[type="text"], input[type="password"], input[type="email"] {
 }
 
 
-md-input-container.md-default-theme .md-input {
-	border: 1px solid white;
+.border > input {
+	border: 1px solid white !important;
+	min-width: 285px;
 }
 
 /* login page */
@@ -28,4 +29,18 @@ md-input-container.md-default-theme .md-input {
 .item-content div img {
 	max-height: 35px;
 	width: auto;
+}
+
+
+img.circle.avatar {
+	height: 35px;
+}
+
+
+.signup md-input-container.md-default-theme .md-input {
+	color: gray !important;
+}
+
+md-input-container.md-default-theme.dark label {
+color: rgba(0,0,0,0.26) !important
 }

@@ -73,9 +73,11 @@ padding: 16px 49px 10px 16px;
 /* general */
 
 .login-page {
-	background: url(../img/blurbk.jpg);
-	background-size: cover;
-	color: white;
+  background: url(../img/blurbk.jpg) !important;
+  background-image: url(../img/blurbk.jpg) !important;
+  background-size: cover;
+  background-repeat: repeat;
+  color: white;
 }
 
 .bar-c2go {

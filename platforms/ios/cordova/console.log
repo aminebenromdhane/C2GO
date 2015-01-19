@@ -73,3 +73,28 @@
 2015-01-19 11:04:23.124 c2go[58906:1243430] Unlimited access to network resources
 2015-01-19 11:04:23.401 c2go[58906:1243430] Resetting plugins due to page load.
 2015-01-19 11:04:23.699 c2go[58906:1243430] Finished load of: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Bundle/Application/D64AEA13-1C45-4206-9CC5-E3FB9DCBAA17/c2go.app/www/index.html#/user/login
+2015-01-19 13:03:13.498 c2go[58906:1293335] Terminating since there is no system app.
+2015-01-19 18:18:57.941 c2go[60550:1352438] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Data/Application/BEDFA86B-1030-4968-9248-C3A39E196E46/Library/Cookies/Cookies.binarycookies
+2015-01-19 18:18:58.180 c2go[60550:1352438] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-19 18:18:58.181 c2go[60550:1352438] Multi-tasking -> Device: YES, App: YES
+2015-01-19 18:18:58.199 c2go[60550:1352438] Unlimited access to network resources
+2015-01-19 18:18:58.867 c2go[60550:1352438] Resetting plugins due to page load.
+2015-01-19 18:18:59.550 c2go[60550:1352438] Finished load of: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Bundle/Application/9F2545BA-8480-4409-AA9E-5857BAC4D28A/c2go.app/www/index.html#/user/login
+2015-01-19 19:55:17.279 c2go[63323:1376862] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Data/Application/C0568D62-AF6A-45A5-A540-4312B1641114/Library/Cookies/Cookies.binarycookies
+2015-01-19 19:55:17.541 c2go[63323:1376862] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-19 19:55:17.542 c2go[63323:1376862] Multi-tasking -> Device: YES, App: YES
+2015-01-19 19:55:17.564 c2go[63323:1376862] Unlimited access to network resources
+2015-01-19 19:55:18.210 c2go[63323:1376862] Resetting plugins due to page load.
+2015-01-19 19:55:18.741 c2go[63323:1376862] Finished load of: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Bundle/Application/D7C826D8-8B3E-44B6-B91F-BFDBC06116F1/c2go.app/www/index.html#/user/login
+2015-01-19 20:03:59.208 c2go[65228:1384856] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Data/Application/8A61DDD8-97F5-4AEF-9197-338BA4BD7352/Library/Cookies/Cookies.binarycookies
+2015-01-19 20:03:59.618 c2go[65228:1384856] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-19 20:03:59.618 c2go[65228:1384856] Multi-tasking -> Device: YES, App: YES
+2015-01-19 20:03:59.620 c2go[65228:1384856] Unlimited access to network resources
+2015-01-19 20:03:59.925 c2go[65228:1384856] Resetting plugins due to page load.
+2015-01-19 20:04:00.177 c2go[65228:1384856] Finished load of: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Bundle/Application/3F526ECA-46C7-430F-9385-007F4882BA19/c2go.app/www/index.html#/
+2015-01-19 20:07:13.585 c2go[67651:1390260] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Data/Application/895590F5-007C-4BE2-ACA9-7D37085C32BF/Library/Cookies/Cookies.binarycookies
+2015-01-19 20:07:13.659 c2go[67651:1390260] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-19 20:07:13.659 c2go[67651:1390260] Multi-tasking -> Device: YES, App: YES
+2015-01-19 20:07:13.660 c2go[67651:1390260] Unlimited access to network resources
+2015-01-19 20:07:13.930 c2go[67651:1390260] Resetting plugins due to page load.
+2015-01-19 20:07:14.183 c2go[67651:1390260] Finished load of: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Bundle/Application/56C3B2A5-B94A-4386-BA3C-DB50BF5CA55F/c2go.app/www/index.html#/
