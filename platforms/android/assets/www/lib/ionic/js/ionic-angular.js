@@ -3461,7 +3461,7 @@ IonicModule
  * @module ionic
  * @description A service that preemptively caches template files to eliminate transition flicker and boost performance.
  * @usage
- * State template are cached automatically, but you can optionally cache other template.
+ * State templates are cached automatically, but you can optionally cache other templates.
  *
  * ```js
  * $ionicTemplateCache('myNgIncludeTemplate.html');
@@ -3483,14 +3483,14 @@ IonicModule
  *         url: "/tab",
  *         abstract: true,
  *         prefetchTemplate: false,
- *         templateUrl: "tabs-template/tabs.html"
+ *         templateUrl: "tabs-templates/tabs.html"
  *       })
  *       .state('tabs.home', {
  *         url: "/home",
  *         views: {
  *           'home-tab': {
  *             prefetchTemplate: false,
- *             templateUrl: "tabs-template/home.html",
+ *             templateUrl: "tabs-templates/home.html",
  *             controller: 'HomeTabCtrl'
  *           }
  *         }
@@ -3532,11 +3532,11 @@ function($http, $templateCache, $timeout, $ionicConfig) {
     //console.log(toCache);
     var i = 0;
     while ( i < 5 && (template = toCache.pop()) ) {
-      // note that inline template are ignored by this request
+      // note that inline templates are ignored by this request
       if (isString(template)) $http.get(template, { cache: $templateCache });
       i++;
     }
-    // only preload 5 template a second
+    // only preload 5 templates a second
     if(toCache.length)$timeout(function(){run();}, 1000);
   };
 
@@ -7579,7 +7579,7 @@ IonicModule.constant('$ionicNavViewConfig', {
  * Additionally, each state is not required to be bound to a URL, and data can
  * be pushed to each state which allows much flexibility.
  *
- * The ionNavView directive is used to render template in your application. Each template
+ * The ionNavView directive is used to render templates in your application. Each template
  * is part of a state. States are usually mapped to a url, and are defined programatically
  * using angular-ui-router (see [their docs](https://github.com/angular-ui/ui-router/wiki),
  * and remember to replace ui-view with ion-nav-view in examples).
@@ -7622,7 +7622,7 @@ IonicModule.constant('$ionicNavViewConfig', {
  * Then on app start, $stateProvider will look at the url, see it matches the index state,
  * and then try to load home.html into the `<ion-nav-view>`.
  *
- * Pages are loaded by the URLs given. One simple way to create template in Angular is to put
+ * Pages are loaded by the URLs given. One simple way to create templates in Angular is to put
  * them directly into your HTML file and use the `<script type="text/ng-template">` syntax.
  * So here is one way to put home.html into our app:
  *

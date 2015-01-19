@@ -5,17 +5,24 @@ angular.module('c2go').controller('IntroController', ['$scope', '$state', '$ioni
     var _this = this;
 
     this.startApp = function() {
-//      $state.go('news.daily');
       window.localStorage['didTutorial'] = true;
+    };
+
+    this.back = function() {
+      $ionicSlideBoxDelegate.previous();
+    };
+
+    this.atBeginning = function() {
+      return $ionicSlideBoxDelegate.currentIndex() === 0;
     };
 
     this.next = function() {
       $ionicSlideBoxDelegate.next();
     };
 
-
-    this.slideChanged = function(index) {
-
-
+    this.isLastSlide = function() {
+      return $ionicSlideBoxDelegate.currentIndex() === 4;
     };
+
+    this.startApp();
   }]);

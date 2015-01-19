@@ -11,13 +11,23 @@
             <h2>Please Login</h2>
             <form class="login" flex="100">
                 <div layout="column" layout-align="center center">
-                    <div><md-text-float type="text" label="Username" ng-model="username"></md-text-float></div>
-                    <div><md-text-float type="password" label="Password" ng-model="password"></md-text-float></div>
+                    <div>
+                        <md-input-container>
+                            <label>Username</label>
+                            <input type="text" ng-model="username">
+                        </md-input-container>
+                    </div>
+                    <div>
+                        <md-input-container>
+                            <label>Password</label>
+                            <input type="password" ng-model="password">
+                        </md-input-container>
+                    </div>
                 </div>
             </form>
         </div>
     </ion-content>
     <ion-footer-bar class="bar-c2go bar-footer">
-        <div class="footer-button" ui-sref="meeting.comment">Login</div>
+        <div class="footer-button" ui-sref="user.login2">Login</div>
     </ion-footer-bar>
 </ion-view>

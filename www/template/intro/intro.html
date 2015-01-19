@@ -1,19 +1,7 @@
 <ion-view>
-    <ion-header-bar align-title="center" class="bar-c2go" ng-controller="HeaderController as header">
-        <div class="buttons" ng-hide="intro.atBeginning()">
-            <button ng-click="intro.back()" class="button button-icon">
-                <i class="md-keyboard-arrow-left white md-lg"></i></button>
-        </div>
-        <h1 class="title">Intro</h1>
-        <div class="buttons">
-            <button ng-click="intro.next()" class="button button-icon">
-                <i class="md-check white md-lg"></i></button>
-        </div>
-    </ion-header-bar>
 
-    <ion-content class="intro-slides">
-        <ion-slide-box on-slide-changed="intro.slideChanged($index)" show-pager="false">
-            <!-- first slide -->
+        <ion-slide-box on-slide-changed="intro.slideChanged($index)" style="height:90%;">
+
             <ion-slide>
                 <h3>Receive Payments in Real Time</h3>
                 <p>
@@ -26,7 +14,7 @@
                 </div>
             </ion-slide>
 
-            <!-- second slide -->
+
             <ion-slide>
                 <h3>C2GO® Visa® Prepaid Card</h3>
 
@@ -41,7 +29,7 @@
                 </div>
             </ion-slide>
 
-            <!-- third slide -->
+
             <ion-slide>
                 <h3>Share Commissions</h3>
                 <p>
@@ -54,7 +42,7 @@
                 </div>
             </ion-slide>
 
-            <!-- fourth slide -->
+
             <ion-slide>
                 <h3>Text & Email Notifications</h3>
                 <p>
@@ -67,18 +55,22 @@
                 </div>
             </ion-slide>
 
-            <!-- fifth slide -->
+
             <ion-slide>
                 <h3>Online Transaction History</h3>
                 <p>
                     Obtain detailed online transaction histories reflecting all the payments you've received, and payments you've made to others.
                 </p>
-                <div>
-                    <md-button class="md-fab" ng-click="intro.goHome()">
-                        <i class="md-check" style="font-size: 20px;"></i>
-                    </md-button>
-                </div>
             </ion-slide>
         </ion-slide-box>
-    </ion-content>
+    <ion-footer-bar class="hidden-bar" ng-show="intro.isLastSlide()">
+        <div layout="row" layout-align="space-between center" layout-fill layout-margin>
+            <div flex class="buttons">
+                <md-button class="md-raised md-primary button" ui-sref="user.signup">SIGN UP</md-button>
+            </div>
+            <div flex class="buttons">
+                <md-button class="md-raised md-primary button" ui-sref="user.login">LOG IN</md-button>
+            </div>
+        </div>
+    </ion-footer-bar>
 </ion-view>

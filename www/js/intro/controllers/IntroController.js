@@ -5,7 +5,6 @@ angular.module('c2go').controller('IntroController', ['$scope', '$state', '$ioni
     var _this = this;
 
     this.startApp = function() {
-//      $state.go('news.daily');
       window.localStorage['didTutorial'] = true;
     };
 
@@ -18,21 +17,12 @@ angular.module('c2go').controller('IntroController', ['$scope', '$state', '$ioni
     };
 
     this.next = function() {
-      if ($ionicSlideBoxDelegate.currentIndex() === 5) {
-        this.goHome();
-      }
-      else {
-        $ionicSlideBoxDelegate.next();
-      }
+      $ionicSlideBoxDelegate.next();
     };
 
-    // not used
-    this.slideChanged = function(index) {
+    this.isLastSlide = function() {
+      return $ionicSlideBoxDelegate.currentIndex() === 4;
     };
-
-    this.goHome = function() {
-      $state.go('launch');
-    }
 
     this.startApp();
   }]);
