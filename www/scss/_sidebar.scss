@@ -72,12 +72,14 @@ padding: 16px 49px 10px 16px;
 
 /* general */
 
+
+
 .login-page {
-  background: url(../img/blurbk.jpg) !important;
-  background-image: url(../img/blurbk.jpg) !important;
-  background-size: cover;
-  background-repeat: repeat;
-  color: white;
+	background: url(../img/blurbk.jpg) !important;
+	background-image: url(../img/blurbk.jpg) !important;
+	background-size: cover;
+	background-repeat: repeat;
+	color: white;
 }
 
 .bar-c2go {
@@ -95,7 +97,12 @@ padding: 16px 49px 10px 16px;
 .item, .item-complex .item-content, .item-radio .item-content {
 	background: transparent;
 	font-family: "Lane" !important;
-	color: white;
+
+}
+
+.list .item-complex .item-content {
+ background: url(../img/png.png) !important;
+ color: white;
 }
 
 md-input-container.md-default-theme label {
@@ -109,4 +116,10 @@ md-input-container.md-default-theme label {
 	background-repeat: repeat;
 	color: white;
 	font-family: "Lane" !important;
+	background: url(../img/png.png) !important;
 }
+
+
+
+
+
