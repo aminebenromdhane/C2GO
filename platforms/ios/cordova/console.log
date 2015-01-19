@@ -4,3 +4,27 @@
 2015-01-12 23:11:53.126 c2go[18371:11251862] Unlimited access to network resources
 2015-01-12 23:11:53.758 c2go[18371:11251862] Resetting plugins due to page load.
 2015-01-12 23:11:54.798 c2go[18371:11251862] Finished load of: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Bundle/Application/32891450-D716-4860-9138-2CE463CB16F0/c2go.app/www/index.html#/launch
+2015-01-18 19:32:41.826 c2go[38082:2432241] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Sam/Library/Developer/CoreSimulator/Devices/F4FF6B00-9B33-401A-A71F-227F3F88E0AD/data/Containers/Data/Application/1987311E-37B7-4646-9E1B-828EE5D33DD8/Library/Cookies/Cookies.binarycookies
+2015-01-18 19:32:42.454 c2go[38082:2432241] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-18 19:32:42.455 c2go[38082:2432241] Multi-tasking -> Device: YES, App: YES
+2015-01-18 19:32:42.479 c2go[38082:2432241] Unlimited access to network resources
+2015-01-18 19:32:43.925 c2go[38082:2432241] Resetting plugins due to page load.
+2015-01-18 19:32:44.694 c2go[38082:2432241] Finished load of: file:///Users/Sam/Library/Developer/CoreSimulator/Devices/F4FF6B00-9B33-401A-A71F-227F3F88E0AD/data/Containers/Bundle/Application/F3AFBF2A-3D8C-4615-8446-2D938A4E5BD6/c2go.app/www/index.html#/
+2015-01-18 19:36:03.745 c2go[38984:2435345] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Sam/Library/Developer/CoreSimulator/Devices/F4FF6B00-9B33-401A-A71F-227F3F88E0AD/data/Containers/Data/Application/C60D05BA-3CD9-41E2-B743-2C95414441AF/Library/Cookies/Cookies.binarycookies
+2015-01-18 19:36:04.252 c2go[38984:2435345] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-18 19:36:04.253 c2go[38984:2435345] Multi-tasking -> Device: YES, App: YES
+2015-01-18 19:36:04.274 c2go[38984:2435345] Unlimited access to network resources
+2015-01-18 19:36:05.990 c2go[38984:2435345] Resetting plugins due to page load.
+2015-01-18 19:36:06.682 c2go[38984:2435345] Finished load of: file:///Users/Sam/Library/Developer/CoreSimulator/Devices/F4FF6B00-9B33-401A-A71F-227F3F88E0AD/data/Containers/Bundle/Application/E80C1628-C89C-42C8-A1F6-8E1E292091E6/c2go.app/www/index.html#/
+2015-01-18 19:37:36.285 c2go[39857:2437715] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Sam/Library/Developer/CoreSimulator/Devices/F4FF6B00-9B33-401A-A71F-227F3F88E0AD/data/Containers/Data/Application/34E5007B-7C2B-4262-84F7-446F17FACA1C/Library/Cookies/Cookies.binarycookies
+2015-01-18 19:37:36.752 c2go[39857:2437715] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-18 19:37:36.753 c2go[39857:2437715] Multi-tasking -> Device: YES, App: YES
+2015-01-18 19:37:36.779 c2go[39857:2437715] Unlimited access to network resources
+2015-01-18 19:37:38.029 c2go[39857:2437715] Resetting plugins due to page load.
+2015-01-18 19:37:38.755 c2go[39857:2437715] Finished load of: file:///Users/Sam/Library/Developer/CoreSimulator/Devices/F4FF6B00-9B33-401A-A71F-227F3F88E0AD/data/Containers/Bundle/Application/F0B94C70-E4D4-4E8E-BD6F-4457CC7F1A89/c2go.app/www/index.html#/
+2015-01-18 19:45:35.428 c2go[40811:2442082] DiskCookieStorage changing policy from 2 to 0, cookie file: file:///Users/Sam/Library/Developer/CoreSimulator/Devices/F4FF6B00-9B33-401A-A71F-227F3F88E0AD/data/Containers/Data/Application/9003A934-F14D-4255-8C1A-66A22BA9EE9A/Library/Cookies/Cookies.binarycookies
+2015-01-18 19:45:36.427 c2go[40811:2442082] Apache Cordova native platform version 3.7.0 is starting.
+2015-01-18 19:45:36.428 c2go[40811:2442082] Multi-tasking -> Device: YES, App: YES
+2015-01-18 19:45:36.464 c2go[40811:2442082] Unlimited access to network resources
+2015-01-18 19:45:39.603 c2go[40811:2442082] Resetting plugins due to page load.
+2015-01-18 19:45:41.316 c2go[40811:2442082] Finished load of: file:///Users/Sam/Library/Developer/CoreSimulator/Devices/F4FF6B00-9B33-401A-A71F-227F3F88E0AD/data/Containers/Bundle/Application/B4BE7329-2899-4109-8864-FCCF6D41AE44/c2go.app/www/index.html#/
