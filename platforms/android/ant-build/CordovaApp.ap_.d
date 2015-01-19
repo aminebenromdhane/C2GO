@@ -54,7 +54,10 @@
 /Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/fonts/glyphicons-halflings-regular.svg \
 /Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/fonts/glyphicons-halflings-regular.ttf \
 /Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/fonts/glyphicons-halflings-regular.woff \
+/Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/fonts/lanenar_Lane.eot \
+/Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/fonts/lanenar_Lane.svg \
 /Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/fonts/lanenar_Lane.ttf \
+/Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/fonts/lanenar_Lane.woff \
 /Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/fonts/Material-Design-Iconic-Font.eot \
 /Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/fonts/Material-Design-Iconic-Font.svg \
 /Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/fonts/Material-Design-Iconic-Font.ttf \

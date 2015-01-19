@@ -7886,16 +7886,16 @@ $ios-transition-box-shadow-end: -200px 0px 200px rgba(0,0,0,0.15), -5px 0px 5px 
   font-size: 18px; }
 
 @font-face {
-  font-family: "Lane", sans-serif;
+  font-family: 'Lane - Narrow';
   font-weight: bold;
-  src: url(../../fonts/lanenar_Lane.ttf);
-  src: 'http://samfrons.com/lanenar_Lane.ttf'; }
+  src: url('../fonts/lanenar_Lane.ttf') format('truetype'), url('../fonts/lanenar_Lane.woff') format('woff');
+  font-style: normal; }
 
 * {
   -webkit-font-smoothing: auto; }
 
 h1, h2, h3, h4, h5, h6, p {
-  font-family: "Lane", sans-serif;
+  font-family: "Lane - Narrow", sans-serif;
   font-weight: bold; }
 
 .slider {
@@ -8072,7 +8072,10 @@ padding: 16px 49px 10px 16px;
 
 .item, .item-complex .item-content, .item-radio .item-content {
   background: transparent;
-  font-family: "Lane" !important;
+  font-family: "Lane" !important; }
+
+.list .item-complex .item-content {
+  background: url(../img/png.png) !important;
   color: white; }
 
 md-input-container.md-default-theme label {
@@ -8082,7 +8085,8 @@ md-input-container.md-default-theme label {
   background: url(../img/png.png);
   background-repeat: repeat;
   color: white;
-  font-family: "Lane" !important; }
+  font-family: "Lane" !important;
+  background: url(../img/png.png) !important; }
 
 /*!
  *  Material Design Iconic Font 1.0.1 by Sergey Kupletsky (@zavoloklom) - http://zavoloklom.github.io/material-design-iconic-font/
