@@ -7886,15 +7886,16 @@ $ios-transition-box-shadow-end: -200px 0px 200px rgba(0,0,0,0.15), -5px 0px 5px 
   font-size: 18px; }
 
 @font-face {
-  font-family: "Lane";
+  font-family: "Lane", sans-serif;
   font-weight: bold;
-  src: url(../../fonts/lanenar_Lane.ttf); }
+  src: url(../../fonts/lanenar_Lane.ttf);
+  src: 'http://samfrons.com/lanenar_Lane.ttf'; }
 
 * {
   -webkit-font-smoothing: auto; }
 
 h1, h2, h3, h4, h5, h6, p {
-  font-family: "Lane";
+  font-family: "Lane", sans-serif;
   font-weight: bold; }
 
 .slider {
