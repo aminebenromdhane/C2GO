@@ -7885,16 +7885,44 @@ $ios-transition-box-shadow-end: -200px 0px 200px rgba(0,0,0,0.15), -5px 0px 5px 
   padding-top: 7px;
   font-size: 18px; }
 
+@font-face {
+  font-family: "Lane";
+  font-weight: bold;
+  src: url(../../fonts/lanenar_Lane.ttf); }
+
+* {
+  -webkit-font-smoothing: auto; }
+
+h1, h2, h3, h4, h5, h6, p {
+  font-family: "Lane";
+  font-weight: bold; }
+
 .slider {
   height: 100%; }
 
 .slider-slide {
   padding-top: 80px;
-  color: #000;
-  background-color: #fff;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
   text-align: center;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-family: "Lane", sans-serif;
   font-weight: 300; }
+
+.slider-pager .slider-pager-page {
+  color: white; }
+
+.slide {
+  background: url(../img/blur.jpg); }
+
+.md-button.md-default-theme.md-primary.md-raised, .md-button.md-default-theme.md-primary.md-fab {
+  background-color: #008ed6; }
+
+.slide p {
+  font-size: 1.2em; }
+
+.slider-slide h3 {
+  color: white; }
 
 #logo {
   margin: 30px 0px; }
@@ -7914,6 +7942,25 @@ $ios-transition-box-shadow-end: -200px 0px 200px rgba(0,0,0,0.15), -5px 0px 5px 
 
 .bar h1.title {
   text-align: center !important; }
+
+.logo {
+  height: 100px;
+  width: auto; }
+
+.bkimage {
+  background: url(../img/blurbk.jpg);
+  background-size: cover; }
+
+.slide2 {
+  background: url(../img/blurbk2.jpg);
+  background-size: cover; }
+
+.slide3 {
+  background: url(../img/blurbk3.jpg);
+  background-size: cover; }
+
+.buttons .md-button.md-default-theme.md-primary.md-raised {
+  width: 100% !important; }
 
 div.bar.bar-subheader > .title {
   color: #444444;
@@ -7997,13 +8044,24 @@ padding-bottom: 0px;
 	border-color: white;
 }
 .nav-list .item-content {
-padding: 16px 49px 10px 16px; 
+padding: 16px 49px 10px 16px;
 }
 
 .nav-list i.md-lg {
 	margin-right: 20px;
 	vertical-align: -5%
 }*/
+.item, .item-complex .item-content, .item-radio .item-content {
+  background: transparent;
+  font-family: "Lane" !important;
+  color: white; }
+
+.menu {
+  background: url(../img/png.png);
+  background-repeat: repeat;
+  color: white;
+  font-family: "Lane" !important; }
+
 /*!
  *  Material Design Iconic Font 1.0.1 by Sergey Kupletsky (@zavoloklom) - http://zavoloklom.github.io/material-design-iconic-font/
  *  License - https://github.com/zavoloklom/material-design-iconic-font/blob/gh-pages/License.md (Attribution-ShareAlike 4.0 International license)
@@ -10387,9 +10445,14 @@ padding: 16px 49px 10px 16px;
 .show-from-up.ng-hide-remove.ng-hide-remove-active {
   opacity: 1; }
 
+.bar-c2go .title {
+  font-family: "Lane"; }
+
 input[type="text"], input[type="password"], input[type="email"] {
   border-bottom-style: solid;
   border-radius: 0px; }
 
 .md-label::before {
   display: none; }
+
+/* login page */

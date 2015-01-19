@@ -3,9 +3,8 @@
 angular.module('c2go').controller('RootController', ['$state',
   function($state) {
 
-//    $state.go('launch');
     if(window.localStorage['didTutorial'] === "true") {
-      $state.go('launch');
+      $state.go('user.login');
     } else {
       $state.go('intro');
     }

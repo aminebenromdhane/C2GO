@@ -1,0 +1,43 @@
+<ion-view>
+    <ion-header-bar align-title="center" class="bar-c2go">
+        <div class="buttons">
+            <button menu-toggle="left" class="button button-icon"><i class="md-menu white md-lg"></i></button>
+        </div>
+        <h1 class="title">Select Recipient</h1>
+        <div class="buttons">
+            <button class="button button-icon"><i class="md-notifications-none white md-lg"></i></button>
+        </div>
+    </ion-header-bar>
+    <ion-content class="has-subheader-rel has-header">
+        <div class="bar bar-subheader rel" style="text-align: center;">
+            <md-text-float type="text" ng-model="username" style="margin: 0px;width:80%"></md-text-float>
+            <button class="button button-icon"><i class="ion-search"></i></button>
+        </div>
+        <ion-list>
+            <ion-item ui-sref="payment.sendMoney2" >
+                <div layout="row">
+                    <img src="img/avatars/8bit1.jpg" flex="10" height="auto" class="circle avatar">
+                    <div class="right-info" flex="90" style="padding-left: 20px;">
+                        <p>Jamie Wanderfull</p>
+                    </div>
+                </div>
+            </ion-item>
+            <ion-item ui-sref="payment.sendMoney2" >
+                <div layout="row">
+                    <img src="img/avatars/8bit1.jpg" flex="10" height="auto" class="circle avatar">
+                    <div class="right-info" flex="90" style="padding-left: 20px;">
+                        <p>Oskar Eatmypants</p>
+                    </div>
+                </div>
+            </ion-item>
+            <ion-item ui-sref="payment.sendMoney2" >
+                <div layout="row">
+                    <img src="img/avatars/8bit1.jpg" flex="10" height="auto" class="circle avatar">
+                    <div class="right-info" flex="90" style="padding-left: 20px;">
+                        <p>Suzanne Williams</p>
+                    </div>
+                </div>
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>

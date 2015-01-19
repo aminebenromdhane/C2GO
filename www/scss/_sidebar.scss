@@ -62,10 +62,26 @@ padding-bottom: 0px;
 	border-color: white;
 }
 .nav-list .item-content {
-padding: 16px 49px 10px 16px; 
+padding: 16px 49px 10px 16px;
 }
 
 .nav-list i.md-lg {
 	margin-right: 20px;
 	vertical-align: -5%
 }*/
+
+
+.item, .item-complex .item-content, .item-radio .item-content {
+	background: transparent;
+	font-family: "Lane" !important;
+	color: white;
+}
+
+
+
+.menu {
+	background: url(../img/png.png);
+	background-repeat: repeat;
+	color: white;
+	font-family: "Lane" !important;
+}

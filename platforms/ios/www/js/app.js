@@ -22,12 +22,6 @@ angular.module('c2go', ['ionic', 'ngResource', 'ngCordova', 'ngMaterial'])
           controller: 'IntroController as intro'
         })
 
-        .state('launch', {
-          url: '/launch',
-          templateUrl: 'template/launch/launch.html',
-          controller: 'LaunchController as launch'
-        })
-
         .state('user', {
           url: "/user",
           abstract: true,
@@ -40,7 +34,11 @@ angular.module('c2go', ['ionic', 'ngResource', 'ngCordova', 'ngMaterial'])
         })
         .state('user.login2', {
           url: "/login2",
+<<<<<<< HEAD
           templateUrl: 'template/user/login2.html',
+=======
+          templateUrl: 'template/user/login2.html'
+>>>>>>> 2845feaaee7e9f6ecca9c347b440f5d938d46afc
         })
 
         .state('user.signup', {

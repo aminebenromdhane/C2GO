@@ -1,84 +1,118 @@
 <ion-view>
-    <ion-header-bar align-title="center" class="bar-c2go" ng-controller="HeaderController as header">
-        <div class="buttons" ng-hide="intro.atBeginning()">
-            <button ng-click="intro.back()" class="button button-icon">
-                <i class="md-keyboard-arrow-left white md-lg"></i></button>
-        </div>
-        <h1 class="title">Intro</h1>
-        <div class="buttons">
-            <button ng-click="intro.next()" class="button button-icon">
-                <i class="md-check white md-lg"></i></button>
-        </div>
-    </ion-header-bar>
 
-    <ion-content class="intro-slides">
-        <ion-slide-box on-slide-changed="intro.slideChanged($index)" show-pager="false">
-            <!-- first slide -->
-            <ion-slide>
-                <h3>Receive Payments in Real Time</h3>
+        <ion-slide-box on-slide-changed="intro.slideChanged($index)" style="height:100%;">
+
+            <ion-slide class="bkimage slide">
+            <img class="logo" src="img/c2go-logo-white.svg">
+                <h3 style="font-size: 1.3em">Commissions2GO®</h3>
                 <p>
-                    Commissions you earn with participating businesses are paid instantly and securely to your C2GO account.
+                    The simplest way to collect the commissions you earn every day.
                 </p>
-                <div>
+        
+                <!--<div>
                     <md-button class="md-fab" ng-click="intro.next()">
                         <i class="md-check" style="font-size: 20px;"></i>
                     </md-button>
                 </div>
+                -->
+
+        <div layout="row" layout-align="space-between center" layout-margin style="margin-top: 20vw;">
+            <div flex="40" class="buttons">
+                <md-button class="md-raised md-primary button" ui-sref="user.signup">SIGN UP</md-button>
+            </div>
+            <div flex="40" class="buttons">
+                <md-button class="md-raised md-primary button" ui-sref="user.login">LOG IN</md-button>
+            </div>
+        </div>
+ 
             </ion-slide>
 
-            <!-- second slide -->
-            <ion-slide>
+
+            <ion-slide class="slide2">
+                <h3>Receive Payments in Real Time</h3>
+                <p>
+                    Commissions you earn with participating businesses are paid instantly and securely to your C2GO account.
+                </p>
+                <!--<div>
+                    <md-button class="md-fab" ng-click="intro.next()">
+                        <i class="md-check" style="font-size: 20px;"></i>
+                    </md-button>
+                </div>
+
+
+                 <ion-footer-bar class="hidden-bar" ng-show="intro.isLastSlide()">
+        <div layout="row" layout-align="space-between center" layout-fill layout-margin>
+            <div flex class="buttons">
+                <md-button class="md-raised md-primary button" ui-sref="user.signup">SIGN UP</md-button>
+            </div>
+            <div flex class="buttons">
+                <md-button class="md-raised md-primary button" ui-sref="user.login">LOG IN</md-button>
+            </div>
+        </div>
+    </ion-footer-bar> -->
+            </ion-slide>
+
+
+            <ion-slide class="slide3">
                 <h3>C2GO® Visa® Prepaid Card</h3>
 
                 <p>
                     Your commissions are credited to your card account immediately.
                     You can use the card anywhere VISA® is accepted, including ATMs nationwide.
                 </p>
-                <div>
+
+                <img  src="img/hand-card.png" width="100%" height="auto">
+                <!--<div>
                     <md-button class="md-fab" ng-click="intro.next()">
                         <i class="md-check" style="font-size: 20px;"></i>
                     </md-button>
-                </div>
+                </div>-->
             </ion-slide>
 
-            <!-- third slide -->
-            <ion-slide>
+
+            <ion-slide class="slide">
                 <h3>Share Commissions</h3>
                 <p>
                     C2GO makes it easy to split commissions or transfer funds to any C2GO member in real time.
                 </p>
-                <div>
+               <!-- <div>
                     <md-button class="md-fab" ng-click="intro.next()">
                         <i class="md-check" style="font-size: 20px;"></i>
                     </md-button>
-                </div>
+                </div> -->
             </ion-slide>
 
-            <!-- fourth slide -->
-            <ion-slide>
+
+            <ion-slide class="slide">
                 <h3>Text & Email Notifications</h3>
                 <p>
                     You'll receive real time confirmation of payments via text and email, the instant that funds are posted to your account.
                 </p>
-                <div>
+                <!--<div>
                     <md-button class="md-fab" ng-click="intro.next()">
                         <i class="md-check" style="font-size: 20px;"></i>
                     </md-button>
-                </div>
+                </div>-->
             </ion-slide>
 
-            <!-- fifth slide -->
-            <ion-slide>
+
+            <ion-slide class="slide">
                 <h3>Online Transaction History</h3>
                 <p>
                     Obtain detailed online transaction histories reflecting all the payments you've received, and payments you've made to others.
                 </p>
-                <div>
-                    <md-button class="md-fab" ng-click="intro.goHome()">
-                        <i class="md-check" style="font-size: 20px;"></i>
-                    </md-button>
-                </div>
+
+                <div layout="row two-buttons" layout-align="space-between center" layout-fill layout-margin>
+            <div flex class="buttons">
+                <md-button class="md-raised md-primary button" ui-sref="user.signup">SIGN UP</md-button>
+            </div>
+            <div flex class="buttons">
+                <md-button class="md-raised md-primary button" ui-sref="user.login">LOG IN</md-button>
+            </div>
+        </div>
             </ion-slide>
+            
         </ion-slide-box>
-    </ion-content>
+   <!-- <ion-footer-bar class="hidden-bar" ng-show="intro.isLastSlide()">
+    </ion-footer-bar>-->
 </ion-view>

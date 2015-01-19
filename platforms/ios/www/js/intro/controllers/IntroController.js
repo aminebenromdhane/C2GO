@@ -5,7 +5,6 @@ angular.module('c2go').controller('IntroController', ['$scope', '$state', '$ioni
     var _this = this;
 
     this.startApp = function() {
-//      $state.go('news.daily');
       window.localStorage['didTutorial'] = true;
     };
 
@@ -18,6 +17,7 @@ angular.module('c2go').controller('IntroController', ['$scope', '$state', '$ioni
     };
 
     this.next = function() {
+<<<<<<< HEAD
       if ($ionicSlideBoxDelegate.currentIndex() === 5) {
         this.goHome();
       }
@@ -34,5 +34,14 @@ angular.module('c2go').controller('IntroController', ['$scope', '$state', '$ioni
       $state.go('launch');
     }
 
+=======
+      $ionicSlideBoxDelegate.next();
+    };
+
+    this.isLastSlide = function() {
+      return $ionicSlideBoxDelegate.currentIndex() === 4;
+    };
+
+>>>>>>> 2845feaaee7e9f6ecca9c347b440f5d938d46afc
     this.startApp();
   }]);
