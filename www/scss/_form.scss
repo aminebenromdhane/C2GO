@@ -13,9 +13,19 @@ input[type="text"], input[type="password"], input[type="email"] {
   display: none;
 }
 
-/* login page */ 
+
+md-input-container.md-default-theme .md-input {
+	border: 1px solid white;
+}
+
+/* login page */
+
+.white {
+	color: white;
+}
 
 
-.login-page {
-
+.item-content div img {
+	max-height: 35px;
+	width: auto;
 }

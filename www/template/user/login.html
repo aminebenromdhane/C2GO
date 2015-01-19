@@ -1,25 +1,26 @@
 <ion-view class="login-page">
     <ion-header-bar align-title="center" class="bar-c2go">
         <div class="buttons">
-            <button menu-toggle="left" class="button button-icon"><i class="md-menu white md-lg"></i></button>
+            <button menu-toggle="left" class="button button-icon"><i class="md-menu md-lg"></i></button>
         </div>
         <h1 class="title">Login</h1>
     </ion-header-bar>
     <ion-content class="has-header">
 
         <div layout="column" layout-align="center center" style="margin-top: 100px;">
-            <h2>Please Login</h2>
+            <h2 class="white">Please Login</h2>
+            <img class="logo" src="img/c2go-logo-white.svg">
             <form class="login" flex="100">
                 <div layout="column" layout-align="center center">
                     <div>
-                        <md-input-container>
-                            <label>Username</label>
+                        <md-input-container class="border">
+                            <label>&nbsp;&nbsp;Username</label>
                             <input type="text" ng-model="username">
                         </md-input-container>
                     </div>
                     <div>
-                        <md-input-container>
-                            <label>Password</label>
+                        <md-input-container class="border">
+                            <label>&nbsp;&nbsp;Password</label>
                             <input type="password" ng-model="password">
                         </md-input-container>
                     </div>
@@ -27,7 +28,4 @@
             </form>
         </div>
     </ion-content>
-    <ion-footer-bar class="bar-c2go bar-footer">
-        <div class="footer-button" ui-sref="user.login2">Login</div>
-    </ion-footer-bar>
 </ion-view>
