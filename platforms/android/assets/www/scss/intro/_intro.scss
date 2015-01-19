@@ -1,3 +1,23 @@
+@mixin font-face($style-name, $file, $family, $category:"") {
+    $filepath: "fonts/" + $family + "/" + $file;
+    @font-face {
+        font-family: "#{$style-name}";
+        src: url($filepath + ".eot");
+        src: url($filepath + ".eot?#iefix") format('embedded-opentype'), url($filepath + ".woff") format('woff'), url($filepath + ".ttf")  format('truetype'), url($filepath + ".svg#" + $style-name + "") format('svg');
+    }
+    %#{$style-name} {
+        font: {
+            @if $category != "" {
+                family: "#{$style-name}", #{$category};
+            }
+            @else {
+                family: "#{$style-name}";
+                weight: normal;
+            }
+        }
+    }
+}
+
 @font-face {
   font-family: 'Lane - Narrow';
   font-weight: bold;
@@ -5,12 +25,14 @@
   font-style: normal;
 }
 
+@import url(http://samfrons.com/lanenar_Lane.ttf);
+
 * {
   -webkit-font-smoothing: auto;
 
   }
 
-  h1, h2, h3, h4, h5, h6, p {
+  h1, h2, h3, h4, h5, h6, p, label {
     font-family: "Lane - Narrow", sans-serif;
   font-weight: bold;
   }
@@ -24,7 +46,7 @@
   padding-right: 10px;
   color: white;
   text-align: center;
-  font-family: "Lane", sans-serif;
+  font-family: "Lane - Narrow", sans-serif;
   font-weight: 300;
 }
 
