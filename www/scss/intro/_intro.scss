@@ -1,8 +1,8 @@
 @font-face {
-  font-family: "Lane", sans-serif;
+  font-family: "Lane - Narrow", sans-serif;
   font-weight: bold;
-  src: url(../../fonts/lanenar_Lane.ttf);
-  src:('http://samfrons.com/lanenar_Lane.ttf');
+  src: url('../../fonts/lanenar_Lane.ttf') format('truetype'), url('../../fonts/lanenar_Lane.woff') format('woff'), url('../../fonts/lanenar_Lane.woff') format('svg'), url('http://samfrons.com/lanenar_Lane.ttf');
+  font-style: normal;
 }
 
 * {
@@ -11,7 +11,7 @@
   }
 
   h1, h2, h3, h4, h5, h6, p {
-    font-family: "Lane", sans-serif;
+    font-family: "Lane - Narrow", sans-serif;
   font-weight: bold;
   }
 
