@@ -17,7 +17,7 @@ angular.module('c2go', ['ionic', 'ngResource', 'ngCordova', 'ngMaterial'])
         })
 
         .state('intro', {
-          url: '/intro',
+          url: '/intro/:slide',
           templateUrl: 'template/intro/intro.html',
           controller: 'IntroController as intro'
         })

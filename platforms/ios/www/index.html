@@ -67,9 +67,13 @@
 
       <ion-side-menu side="left">
         <ion-content ng-controller="MenuController as menu">
-          <div style="height: 65px;background: #2ac3f1;"></div>
           <ion-list class="nav-list">
-            <ion-item nav-clear menu-close ui-sref="launch" ui-sref-active="nav-active">
+          <ion-item nav-clear menu-close ui-sref="user.profile" ui-sref-active="nav-active">
+          <div class="top" style="height: 65px;" >
+          Profile
+          </div>
+          </ion-item>
+            <ion-item nav-clear menu-close ui-sref="launch"  ui-sref-active="nav-active">
               Home
             </ion-item>
             <ion-item nav-clear menu-close ui-sref="payment.history" ui-sref-active="nav-active">
