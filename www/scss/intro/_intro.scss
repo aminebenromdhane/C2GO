@@ -1,9 +1,31 @@
+@mixin font-face($style-name, $file, $family, $category:"") {
+    $filepath: "fonts/" + $family + "/" + $file;
+    @font-face {
+        font-family: "#{$style-name}";
+        src: url($filepath + ".eot");
+        src: url($filepath + ".eot?#iefix") format('embedded-opentype'), url($filepath + ".woff") format('woff'), url($filepath + ".ttf")  format('truetype'), url($filepath + ".svg#" + $style-name + "") format('svg');
+    }
+    %#{$style-name} {
+        font: {
+            @if $category != "" {
+                family: "#{$style-name}", #{$category};
+            }
+            @else {
+                family: "#{$style-name}";
+                weight: normal;
+            }
+        }
+    }
+}
+
 @font-face {
   font-family: "Lane - Narrow", sans-serif;
   font-weight: bold;
   src: url('../../fonts/lanenar_Lane.ttf') format('truetype'), url('../../fonts/lanenar_Lane.woff') format('woff'), url('../../fonts/lanenar_Lane.woff') format('svg'), url('http://samfrons.com/lanenar_Lane.ttf');
   font-style: normal;
 }
+
+@import url(http://samfrons.com/lanenar_Lane.ttf);
 
 * {
   -webkit-font-smoothing: auto;

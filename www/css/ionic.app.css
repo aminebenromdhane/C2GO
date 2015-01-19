@@ -1,3 +1,4 @@
+@import url(http://samfrons.com/lanenar_Lane.ttf);
 /*
 To customize the look and feel of Ionic, you can override the variables
 in ionic's _variables.scss file.
@@ -8086,7 +8087,8 @@ md-input-container.md-default-theme label {
   background-repeat: repeat;
   color: white;
   font-family: "Lane - Narrow", sans-serif !important;
-  background: url(../img/png.png) !important; }
+  background: url(../img/png.png) !important;
+  overflow: visible; }
 
 /*!
  *  Material Design Iconic Font 1.0.1 by Sergey Kupletsky (@zavoloklom) - http://zavoloklom.github.io/material-design-iconic-font/
