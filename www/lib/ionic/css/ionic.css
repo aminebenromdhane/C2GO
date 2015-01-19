@@ -2452,7 +2452,7 @@ ion-infinite-scroll {
     height: 100%;
     -webkit-transform: translate3d(0, 0, 0); }
 
-/* If you change these, change platform.sass as well */
+/* If you change these, change platform.scss as well */
 .has-header {
   top: 44px; }
 
@@ -3604,7 +3604,7 @@ a.subdued {
       transition: all 0.2s ease; }
 
 /* Allow parent element to have tabs-top */
-/* If you change this, change platform.sass as well */
+/* If you change this, change platform.scss as well */
 .tabs-top > .tabs, .tabs.tabs-top {
   top: 44px;
   padding-top: 0;

@@ -9,13 +9,30 @@ angular.module('c2go').controller('IntroController', ['$scope', '$state', '$ioni
       window.localStorage['didTutorial'] = true;
     };
 
+    this.back = function() {
+      $ionicSlideBoxDelegate.previous();
+    };
+
+    this.atBeginning = function() {
+      return $ionicSlideBoxDelegate.currentIndex() === 0;
+    };
+
     this.next = function() {
-      $ionicSlideBoxDelegate.next();
+      if ($ionicSlideBoxDelegate.currentIndex() === 5) {
+        this.goHome();
+      }
+      else {
+        $ionicSlideBoxDelegate.next();
+      }
     };
 
-
+    // not used
     this.slideChanged = function(index) {
-
-
     };
+
+    this.goHome = function() {
+      $state.go('launch');
+    }
+
+    this.startApp();
   }]);

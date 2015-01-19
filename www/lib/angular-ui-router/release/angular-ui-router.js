@@ -510,7 +510,7 @@ angular.module('ui.router.util').service('$resolve', $Resolve);
  * @requires $injector
  *
  * @description
- * Service. Manages loading of template.
+ * Service. Manages loading of templates.
  */
 $TemplateFactory.$inject = ['$http', '$templateCache', '$injector'];
 function $TemplateFactory(  $http,   $templateCache,   $injector) {
@@ -2534,7 +2534,7 @@ angular.module('ui.router.state').provider('$uiViewScroll', $ViewScrollProvider)
  * @restrict ECA
  *
  * @description
- * The ui-view directive tells $state where to place your template.
+ * The ui-view directive tells $state where to place your templates.
  *
  * @param {string=} ui-view A view name. The name should be unique amongst the other views in the
  * same state. You can have views of the same name that live in different states.

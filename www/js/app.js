@@ -16,8 +16,6 @@ angular.module('c2go', ['ionic', 'ngResource', 'ngCordova', 'ngMaterial'])
           controller: 'RootController as root'
         })
 
-
-
         .state('intro', {
           url: '/intro',
           templateUrl: 'template/intro/intro.html',
@@ -40,6 +38,11 @@ angular.module('c2go', ['ionic', 'ngResource', 'ngCordova', 'ngMaterial'])
           templateUrl: 'template/user/login.html',
           controller: 'LoginController as loginCtrl'
         })
+        .state('user.login2', {
+          url: "/login2",
+          templateUrl: 'template/user/login2.html',
+        })
+
         .state('user.signup', {
           url: "/signup",
           templateUrl: 'template/user/signup.html'
@@ -56,9 +59,6 @@ angular.module('c2go', ['ionic', 'ngResource', 'ngCordova', 'ngMaterial'])
           url: "/logout",
           controller: 'LogoutController'
         })
-
-
-
 
         .state('payment', {
           url: "/payment",
