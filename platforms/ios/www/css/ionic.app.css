@@ -7897,7 +7897,8 @@ $ios-transition-box-shadow-end: -200px 0px 200px rgba(0,0,0,0.15), -5px 0px 5px 
 
 h1, h2, h3, h4, h5, h6, p, label {
   font-family: "Lane - Narrow", sans-serif;
-  font-weight: bold; }
+  font-weight: bold;
+  -webkit-font-smoothing: auto !important; }
 
 .slider {
   height: 100%; }
@@ -8075,7 +8076,7 @@ padding: 16px 49px 10px 16px;
   background: transparent;
   font-family: "Lane - Narrow", sans-serif !important; }
 
-.list .item-complex .item-content {
+.nav-list .list .item-complex .item-content {
   background: url(../img/png.png) !important;
   color: white; }
 
