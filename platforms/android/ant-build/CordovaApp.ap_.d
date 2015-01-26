@@ -136,7 +136,11 @@
 /Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/js/root/controllers/MenuController.js \
 /Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/js/root/controllers/RootController.js \
 /Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/js/user/controllers \
+/Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/js/user/resources \
+/Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/js/user/services \
 /Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/js/user/controllers/LoginController.js \
+/Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/js/user/resources/UserResource.js \
+/Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/js/user/services/userService.js \
 /Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/lib/angular \
 /Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/lib/angular-animate \
 /Users/amineorion/WebstormProjects/c2go/platforms/android/assets/www/lib/angular-aria \

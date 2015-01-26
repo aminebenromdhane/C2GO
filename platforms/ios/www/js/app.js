@@ -1,4 +1,5 @@
 angular.module('c2go', ['ionic', 'ngResource', 'ngCordova', 'ngMaterial'])
+    .constant('apiRoot', 'http://test.c2gocard.com/')
     .run(function($ionicPlatform, $cordovaStatusbar) {
       $ionicPlatform.ready(function() {
         if(window.cordova && window.cordova.plugins.Keyboard) {

@@ -13,19 +13,22 @@
             <form class="login" flex="100">
                 <div layout="column" layout-align="center center">
                     <div>
-                        <md-input-container class="border">
-                            <label>&nbsp;&nbsp;Username</label>
-                            <input type="text" ng-model="username">
+                        <md-input-container class="border" style="color: #ffffff !important;">
+                            <label>Username</label>
+                            <input type="text" ng-model="loginCtrl.user.username">
                         </md-input-container>
                     </div>
                     <div>
-                        <md-input-container class="border">
-                            <label>&nbsp;&nbsp;Password</label>
-                            <input type="password" ng-model="password">
+                        <md-input-container class="border" style="color: #ffffff !important;">
+                            <label>Password</label>
+                            <input type="password" ng-model="loginCtrl.user.password">
                         </md-input-container>
                     </div>
                 </div>
             </form>
         </div>
     </ion-content>
+    <ion-footer-bar class="bar-c2go bar-footer">
+        <div class="footer-button" ng-click="loginCtrl.login()">Done</div>
+    </ion-footer-bar>
 </ion-view>
