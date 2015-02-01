@@ -22,8 +22,49 @@ h1.title.title-left {
 
 }
 
-
 .bar-subheader.rel {
   top: 0px !important;
   position: relative;
 }
+
+.header-list {
+  height: 55px;
+}
+
+.balance-name {
+  padding-left: 10px;
+  text-align: left;
+  font-weight:bold;
+  font-size: 14px;
+}
+
+.balance-sum {
+  padding-right: 10px;
+  text-align: right;
+  font-size: 12px;
+}
+
+.list-entry .icon {
+  padding-top: 3px;
+}
+
+.list-entry .row-left {
+  padding-left: 5px;
+}
+
+.list-entry .row-right {
+  text-align: right;
+}
+
+.list-entry .row-right .bottom{
+  font-size: 10px;
+}
+
+.list-entry .row-right .green-operation {
+  color: greenyellow;
+}
+
+.list-entry .row-right .red-operation {
+  color: red;
+}
+
