@@ -1,4 +1,3 @@
-@import url(http://samfrons.com/lanenar_Lane.ttf);
 /*
 To customize the look and feel of Ionic, you can override the variables
 in ionic's _variables.scss file.
@@ -7857,8 +7856,9 @@ $ios-transition-box-shadow-end: -200px 0px 200px rgba(0,0,0,0.15), -5px 0px 5px 
   color: white; }
 
 .bar-c2go .title {
-  font-family: "Roboto";
-  font-weight: 600; }
+  font-family: "Roboto", "Lane - Narrow", sans-serif;
+  font-weight: 600;
+  color: #ff0000; }
 
 .white.md-lg {
   vertical-align: -10%; }
@@ -7885,6 +7885,47 @@ $ios-transition-box-shadow-end: -200px 0px 200px rgba(0,0,0,0.15), -5px 0px 5px 
   text-align: center;
   padding-top: 7px;
   font-size: 18px; }
+
+input[type="text"], input[type="password"], input[type="email"] {
+  border-bottom-style: solid;
+  border-radius: 0px; }
+
+.md-label::before {
+  display: none; }
+
+.border-white > input {
+  border: 1px solid white !important;
+  min-width: 285px; }
+
+.border-black > input {
+  border: 1px solid black !important; }
+
+/* login page */
+.white {
+  color: white; }
+
+.item-content div img {
+  max-height: 35px;
+  width: auto; }
+
+img.circle.avatar {
+  height: 35px; }
+
+md-input-container.md-default-theme .md-input {
+  color: gray;
+  padding-left: 2%; }
+
+md-input-container.md-default-theme label {
+  color: gray;
+  margin-left: 2%; }
+
+.drop-down-list {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+  color: rgba(0, 0, 0, 0.26);
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 20px; }
 
 @font-face {
   font-family: 'Lane - Narrow';
@@ -7965,6 +8006,66 @@ h1, h2, h3, h4, h5, h6, p, label {
 
 .buttons .md-button.md-default-theme.md-primary.md-raised {
   width: 100% !important; }
+
+.content-login {
+  margin-top: 100px;
+  margin-right: 10px;
+  margin-left: 10px; }
+
+.content-login .text {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.content-login md-input-container.md-default-theme .md-input {
+  color: #ffffff; }
+
+.content-login md-input-container.md-default-theme label {
+  color: #ffffff; }
+
+.content-signup2 {
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-top: 20px; }
+
+.content-signup3 {
+  margin-top: 100px;
+  margin-right: 70px;
+  margin-left: 70px; }
+
+.img-user-position {
+  padding: 20px; }
+
+.input-position {
+  padding-bottom: 0px;
+  margin-left: 20px;
+  margin-right: 20px; }
+
+.inline {
+  display: inline-block; }
+
+.content-signup2 .text {
+  margin: 10px; }
+
+.content-signup3 .text {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+/* For the iconButton of the drop-down-list*/
+.content-signup .right-position {
+  float: right; }
+
+.content-signup2 .right-position {
+  float: right;
+  margin-top: 17px; }
+
+.content-signup3 .font-icon {
+  font-size: 20px; }
+
+.content-signup md-input-container.md-default-theme .md-input {
+  color: #000000; }
+
+.content-signup md-input-container.md-default-theme label {
+  color: #000000; }
 
 div.bar.bar-subheader > .title {
   color: #444444;
@@ -10474,33 +10575,5 @@ md-input-container.md-default-theme label {
 .show-from-up.ng-hide-remove.ng-hide-remove-active {
   opacity: 1; }
 
-.bar-c2go .title {
-  font-family: "Lane - Narrow", sans-serif; }
-
-input[type="text"], input[type="password"], input[type="email"] {
-  border-bottom-style: solid;
-  border-radius: 0px; }
-
-.md-label::before {
-  display: none; }
-
-.border > input {
-  border: 1px solid white !important;
-  min-width: 285px; }
-
-/* login page */
-.white {
-  color: white; }
-
-.item-content div img {
-  max-height: 35px;
-  width: auto; }
-
-img.circle.avatar {
-  height: 35px; }
-
-.signup md-input-container.md-default-theme .md-input {
-  color: gray !important; }
-
-md-input-container.md-default-theme.dark label {
-  color: rgba(0, 0, 0, 0.26) !important; }
+.footer-button {
+  color: #000000; }
