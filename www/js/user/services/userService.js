@@ -1,5 +1,10 @@
 'use strict';
 
+
+var getHttpsRoot = function(root) {
+    return root.replace("http", "https");
+};
+
 angular.module('c2go').factory('userService', ['$q', 'UserResource', '$http', 'apiRoot',
 function($q, UserResource, $http, apiRoot) {
     var serviceAPI = {
@@ -8,9 +13,10 @@ function($q, UserResource, $http, apiRoot) {
             var _this = this;
             var deferred = $q.defer();
             var data = 'j_username=' + user.username + '&j_password=' + user.password;
+
             $http({
                 method: 'POST',
-                url: apiRoot + 'auth/j_spring_security_check',
+                url: getHttpsRoot(apiRoot) + 'auth/j_spring_security_check',
                 data: data,
                 //data: {'j_username': user.username,  'j_password': user.password},
                 headers: {'Content-Type': 'application/x-www-form-urlencoded'}

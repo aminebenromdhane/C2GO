@@ -10604,8 +10604,11 @@ h1.title.title-left {
 .list-entry .icon {
   padding-top: 3px; }
 
-.list-entry .row-left {
+.list-entry .row-left-5 {
   padding-left: 5px; }
+
+ion-item .row-left-20 {
+  padding-left: 20px; }
 
 .list-entry .row-right {
   text-align: right; }
@@ -10614,7 +10617,25 @@ h1.title.title-left {
   font-size: 10px; }
 
 .list-entry .row-right .green-operation {
-  color: green; }
+  color: greenyellow; }
 
 .list-entry .row-right .red-operation {
   color: red; }
+
+.center-div {
+  text-align: center; }
+
+.search-position {
+  margin: 0px;
+  width: 80%;
+  display: inline-block; }
+
+.send-money .lined-row {
+  padding: 20px;
+  border-bottom: 1px solid #eff1f5; }
+
+.send-money .unlined-row {
+  padding: 20px; }
+
+.send-money .right-space {
+  margin-right: 10px; }

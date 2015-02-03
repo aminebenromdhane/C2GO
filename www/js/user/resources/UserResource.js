@@ -3,7 +3,7 @@
 angular.module('c2go').factory('UserResource', ['$resource', 'apiRoot',
     function($resource, apiRoot) {
         return $resource(
-            apiRoot + 'auth/application/x-www-form-urlencoded/:action', {
+            apiRoot + 'auth/:action', {
                 action: '@action'
             }, {
                 login: {
