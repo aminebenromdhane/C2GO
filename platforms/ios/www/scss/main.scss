@@ -1,12 +1,15 @@
-@charset "UTF-8";
+@charset "utf-8";
 
 @import
   "variables",
   "bars",
-  "intro/intro",
-  "payment/list",
-  "sidebar",
+  "form",
   "icon-font",
   "animation",
-  "form",
-  "footer";
+  "footer",
+  "sidebar",
+  "intro/intro",
+  "user/login",
+  "user/signup",
+  "payment/list",
+  "payment/sendMoney";

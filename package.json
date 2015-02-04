@@ -15,9 +15,5 @@
     "shelljs": "^0.3.0",
     "gulp": "~3.8.10"
   },
-  "cordovaPlugins": [
-    "org.apache.cordova.device",
-    "org.apache.cordova.console",
-    "com.ionic.keyboard"
-  ]
+  "cordovaPlugins": []
 }

@@ -1,10 +1,10 @@
 'use strict';
 
-angular.module('c2go').controller('RootController', ['$state',
-  function($state) {
+angular.module('c2go').controller('RootController', ['$state', 'userRouter',
+  function($state, userRouter) {
 
     if(window.localStorage['didTutorial'] === "true") {
-      $state.go('user.login');
+      userRouter.home();
     } else {
       $state.go('intro');
     }

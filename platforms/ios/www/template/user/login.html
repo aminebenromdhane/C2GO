@@ -7,19 +7,20 @@
     </ion-header-bar>
     <ion-content class="has-header">
 
-        <div layout="column" layout-align="center center" style="margin-top: 100px;">
+        <div layout="column" layout-align="center center" class="content-login">
             <h2 class="white">Please Login</h2>
             <img class="logo" src="img/c2go-logo-white.svg">
             <form class="login" flex="100">
                 <div layout="column" layout-align="center center">
+                    <div style="margin-left: 30px;margin-right: 30px;">{{ loginCtrl.error }}</div>
                     <div>
-                        <md-input-container class="border" style="color: #ffffff !important;">
+                        <md-input-container class="border-white">
                             <label>Username</label>
                             <input type="text" ng-model="loginCtrl.user.username">
                         </md-input-container>
                     </div>
                     <div>
-                        <md-input-container class="border" style="color: #ffffff !important;">
+                        <md-input-container class="border-white">
                             <label>Password</label>
                             <input type="password" ng-model="loginCtrl.user.password">
                         </md-input-container>

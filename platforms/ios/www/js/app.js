@@ -1,6 +1,6 @@
 angular.module('c2go', ['ionic', 'ngResource', 'ngCordova', 'ngMaterial'])
-    .constant('apiRoot', 'http://test.c2gocard.com/')
-    .run(function($ionicPlatform, $cordovaStatusbar) {
+    .constant('apiRoot', 'https://test.c2gocard.com/')
+    .run(function($ionicPlatform, $cordovaStatusbar, userService) {
       $ionicPlatform.ready(function() {
         if(window.cordova && window.cordova.plugins.Keyboard) {
           cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
