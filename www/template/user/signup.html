@@ -6,97 +6,97 @@
         <h1 class="title">Create Account</h1>
     </ion-header-bar>
     <ion-content class="has-header">
-            <div>
+            <div class="content-signup">
                 <div layout="row">
-                    <div flex="30" style="padding: 20px;">
+                    <div flex="30" class="img-user-position">
                         <img src="img/unknownUser.png">
                     </div>
                     <div flex>
                         <div>
-                            <md-input-container class="dark" style="padding-bottom: 0px;">
+                            <md-input-container class="border-black dark input-position">
                                 <label>First Name</label>
                                 <input type="text" ng-model="fname">
-                            </md-input-container class="dark">
+                            </md-input-container>
                         </div>
                         <div>
-                            <md-input-container class="dark" style="padding-bottom: 0px;">
+                            <md-input-container class="border-black dark input-position">
                                 <label>Last Name</label>
-                                <input type="text" ng-model="lname" style="...">
-                            </md-input-container class="dark">
+                                <input type="text" ng-model="lname">
+                            </md-input-container>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <md-input-container class="dark" style="padding-bottom: 0px;margin-left: 20px;margin-right: 20px;">
+                    <md-input-container class="border-black dark input-position">
                         <label>Password</label>
                         <input type="password" ng-model="password">
-                    </md-input-container class="dark">
+                    </md-input-container>
                 </div>
                 <div>
-                    <md-input-container class="dark" style="padding-bottom: 0px;margin-left: 20px;margin-right: 20px;">
+                    <md-input-container class="border-black dark input-position">
                         <label>E-mail</label>
                         <input type="text" ng-model="email">
-                    </md-input-container class="dark">
+                    </md-input-container>
                 </div>
                 <div>
-                    <md-input-container class="dark" style="padding-bottom: 0px;margin-left: 20px;margin-right: 20px;">
+                    <md-input-container class="border-black dark input-position">
                         <label>phone</label>
                         <input type="text" ng-model="phone">
-                    </md-input-container class="dark">
+                    </md-input-container>
                 </div>
                 <div>
-                    <md-input-container class="dark" style="padding-bottom: 0px;margin-left: 20px;margin-right: 20px;">
+                    <md-input-container class="border-black dark input-position">
                         <label>Last 4 digits of social security number</label>
                         <input type="text" ng-model="sec">
-                    </md-input-container class="dark">
+                    </md-input-container>
                 </div>
                 <div>
-                    <md-input-container class="dark" style="padding-bottom: 0px;margin-left: 20px;margin-right: 20px;">
+                    <md-input-container class="border-black dark input-position">
                         <label>Confirm</label>
                         <input type="text" ng-model="confirm">
-                    </md-input-container class="dark">
+                    </md-input-container>
                 </div>
                 <div>
-                    <md-input-container class="dark" style="padding-bottom: 0px;margin-left: 20px;margin-right: 20px;">
+                    <md-input-container class="border-black dark input-position">
                         <label>DOB</label>
                         <input type="text" ng-model="date">
-                    </md-input-container class="dark">
+                    </md-input-container>
                 </div>
                 <div ng-init="show=true">
-                    <div style="border-bottom: 1px solid rgba(0,0,0,0.16);color: rgba(0,0,0,0.26);padding-top: 20px;padding-bottom: 10px;margin-left: 20px;margin-right: 20px;" ng-click="show=!show">
-                        Billing address <i ng-class="{'ion-chevron-right': show, 'ion-chevron-down': !show}" style="float: right;"></i>
+                    <div class="border-black drop-down-list" ng-click="show=!show">
+                        Billing address <i ng-class="{'ion-chevron-right': show, 'ion-chevron-down': !show}" class="right-position"></i>
                     </div>
                     <div ng-show="!show">
                         <div>
-                            <md-input-container class="dark" style="padding-bottom: 0px;margin-left: 20px;margin-right: 20px;">
+                            <md-input-container class="border-black dark input-position">
                                 <label>Billing address</label>
                                 <input type="text" ng-model="b1">
-                            </md-input-container class="dark">
+                            </md-input-container>
                         </div>
                         <div>
-                            <md-input-container class="dark" style="padding-bottom: 0px;margin-left: 20px;margin-right: 20px;">
+                            <md-input-container class="border-black dark input-position">
                                 <label>Billing address line 2</label>
                                 <input type="text" ng-model="b2">
-                            </md-input-container class="dark">
+                            </md-input-container>
                         </div>
                         <div>
-                            <md-input-container class="dark" style="padding-bottom: 0px;margin-left: 20px;margin-right: 20px;">
+                            <md-input-container class="border-black dark input-position">
                                 <label>City</label>
                                 <input type="text" ng-model="city">
-                            </md-input-container class="dark">
+                            </md-input-container>
                         </div>
                         <div layout="row">
                             <div flex="65">
-                                <md-input-container class="dark" style="padding-bottom: 0px;margin-left: 20px;">
+                                <md-input-container class="border-black dark input-position">
                                     <label>State</label>
                                     <input type="text" ng-model="state">
-                                </md-input-container class="dark">
+                                </md-input-container>
                             </div>
-                            <div flex style="padding-left: 10px;">
-                                <md-input-container class="dark" style="padding-bottom: 0px;margin-right: 20px;">
+                            <div flex>
+                                <md-input-container class="border-black dark input-position">
                                     <label>Zip</label>
                                     <input type="text" ng-model="zip">
-                                </md-input-container class="dark">
+                                </md-input-container>
                             </div>
                         </div>
                     </div>

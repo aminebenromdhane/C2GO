@@ -5,34 +5,35 @@
         </div>
         <h1 class="title">Select Transaction</h1>
         <div class="buttons">
+
             <button class="button button-icon"><i class="md-notifications-none white md-lg"></i></button>
         </div>
     </ion-header-bar>
     <ion-content class="has-subheader-rel has-header">
-        <div class="bar bar-subheader rel" style="text-align: center;">
-            <md-text-float type="text" ng-model="username" style="margin: 0px;width:80%;display: inline-block;"></md-text-float>
+        <div class="bar bar-subheader rel center-div">
+            <md-text-float type="text" ng-model="username" class="search-position"></md-text-float>
             <button class="button button-icon"><i class="ion-search"></i></button>
         </div>
         <ion-list>
             <ion-item class="list-entry" ui-sref="payment.splitCommission2">
                 <div layout="row">
-                    <div flex="60" class="inner" style="padding-left: 5px;">
+                    <div flex="60" class="inner row-left-5">
                         <h2>Club Ladies</h2>
                     </div>
-                    <div flex="40" style="text-align: right;">
+                    <div flex="40" class="row-right">
                         <h4>$19.99</h4>
-                        <p style="font-size: 10px;">October 7,2014</p>
+                        <p class="bottom">October 7,2014</p>
                     </div>
                 </div>
             </ion-item>
             <ion-item class="list-entry"  ui-sref="payment.splitCommission2">
                 <div layout="row">
-                    <div flex="60" class="inner" style="padding-left: 5px;">
+                    <div flex="60" class="inner row-left-5">
                         <h2>Tiger Central</h2>
                     </div>
-                    <div flex="40" style="text-align: right;">
+                    <div flex="40" class="row-right">
                         <h4>$9.99</h4>
-                        <p style="font-size: 10px;">October 5,2014</p>
+                        <p class="bottom">October 5,2014</p>
                     </div>
                 </div>
             </ion-item>
