@@ -151,3 +151,4 @@
 2015-01-26 15:42:40.715 c2go[80128:4981864] Unlimited access to network resources
 2015-01-26 15:42:41.302 c2go[80128:4981864] Resetting plugins due to page load.
 2015-01-26 15:42:45.012 c2go[80128:4981864] Finished load of: file:///Users/amineorion/Library/Developer/CoreSimulator/Devices/DC013555-5386-4438-98D5-73313CDD3C02/data/Containers/Bundle/Application/BC7E8C62-7358-42E2-A360-6AA7ED01B0AB/c2go.app/www/index.html#/user/login
+2015-01-27 22:15:17.720 c2go[80128:5709525] Terminating since there is no system app.
