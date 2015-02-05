@@ -62,6 +62,12 @@ angular.module('c2go', ['ionic', 'ngResource', 'ngCordova', 'ngMaterial'])
           controller: 'LogoutController'
         })
 
+        .state('user.changePassword', {
+          url: "/changePassword",
+          templateUrl: 'template/user/changePassword.html',
+          controller: 'PasswordController as passwordCtrl'
+        })
+
         .state('payment', {
           url: "/payment",
           abstract: true,

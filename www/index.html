@@ -42,6 +42,7 @@
     <script src="js/user/services/userService.js"></script>
     <script src="js/user/services/userRouter.js"></script>
     <script src="js/user/controllers/LoginController.js"></script>
+    <script src="js/user/controllers/PasswordController.js"></script>
 
   </head>
   <body ng-app="c2go" animation="slide-left-right-ios7">
@@ -78,9 +79,12 @@
             <ion-item nav-clear menu-close ui-sref="user.signup" ui-sref-active="nav-active">
               Signup
             </ion-item>
-            <ion-item nav-clear menu-close ng-click="menu.logout()" ui-sref-active="nav-active">
-              Logout
-            </ion-item>
+              <ion-item nav-clear menu-close ng-click="menu.logout()" ui-sref-active="nav-active">
+                  Logout
+              </ion-item>
+              <ion-item nav-clear menu-close ui-sref="user.changePassword" ui-sref-active="nav-active">
+                  Change password
+              </ion-item>
           </ion-list>
         </ion-content>
       </ion-side-menu>

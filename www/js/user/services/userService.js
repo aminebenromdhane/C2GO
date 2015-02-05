@@ -58,6 +58,22 @@ function($q, UserResource, apiRoot, $http, $state) {
                     console.log(err);
 
                 });
+        },
+        changePassword: function(user){
+            var _this = this;
+            var deferred = $q.defer();
+            $.ajax({
+                url : apiRoot + 'rest/CardHolder/ChangePassword?oldPassword=' + user.password + '&password=' + user.newPassword,
+                type: "GET",
+                success: function(data, textStatus, jqXHR) {
+                    console.log(data);
+                },
+                error: function(jqXHR, textStatus, errorThrown) {
+                    console.log("error change password");
+                }
+            });
+
+            return deferred.promise;
         }
     };
     return serviceAPI;
