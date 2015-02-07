@@ -1,4 +1,4 @@
-angular.module('c2go', ['ionic', 'ngResource', 'ngCordova', 'ngMaterial'])
+angular.module('c2go', ['ionic', 'ngResource', 'ngCordova', 'ngMaterial', 'ngCookies'])
     .constant('apiRoot', 'https://test.c2gocard.com/')
     .run(function($ionicPlatform, $cordovaStatusbar, userService) {
       $ionicPlatform.ready(function() {

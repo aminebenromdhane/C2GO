@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('c2go').factory('userService', ['$q', 'UserResource', 'apiRoot', '$http', '$state',
-function($q, UserResource, apiRoot, $http, $state) {
+angular.module('c2go').factory('userService', ['$q', 'UserResource', 'apiRoot', '$http', '$state', '$cookieStore',
+function($q, UserResource, apiRoot, $http, $state, $cookieStore) {
     var serviceAPI = {
         user: null,
         login: function(user){
@@ -18,6 +18,7 @@ function($q, UserResource, apiRoot, $http, $state) {
                         _this.user = {
                             username: 'sfrons@productivemachine.com'
                         };
+                        $cookieStore.put("user", _this.user);
                         deferred.resolve();
                     }else{
                         deferred.reject('The username and password combination you provided did not match our records');
@@ -62,9 +63,25 @@ function($q, UserResource, apiRoot, $http, $state) {
         changePassword: function(user){
             var _this = this;
             var deferred = $q.defer();
+            console.log(apiRoot + 'rest/CardHolder/ChangePassword?oldPassword=' + user.password + '&password=' + user.newPassword);
+            // TODO https://test.c2gocard.com/rest/CardHolder/ChangePassword?oldPassword=123&password=Test123fds!affdsa
+            // TODO https://test.c2gocard.com/rest/CardHolder/ChangePassword?oldPassword=test&password=123
+            //$http.get(apiRoot + 'rest/CardHolder/ChangePassword?oldPassword=' + user.password + '&password=' + user.newPassword)
+            //    .then(function(response){
+            //        //if(response.data.indexOf('login') === -1){
+            //        //    _this.user = {
+            //        //        username: 'sfrons@productivemachine.com'
+            //        //    };
+            //        console.log("change success");
+            //        deferred.resolve();
+            //    },function(err){
+            //        console.log(err);
+            //        deferred.resolve();
+            //    });
             $.ajax({
                 url : apiRoot + 'rest/CardHolder/ChangePassword?oldPassword=' + user.password + '&password=' + user.newPassword,
                 type: "GET",
+                //data : {"j_username":user.username, "j_password":user.password},
                 success: function(data, textStatus, jqXHR) {
                     console.log(data);
                 },
@@ -72,7 +89,6 @@ function($q, UserResource, apiRoot, $http, $state) {
                     console.log("error change password");
                 }
             });
-
             return deferred.promise;
         }
     };
